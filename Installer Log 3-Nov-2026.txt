@@ -1,0 +1,1153 @@
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Hardware: MacBookPro17,1 @ 0 MHz (x 8), 16384 MB RAM
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Running OS Build: macOS 26.1 (25B78)
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: OSLogRateLimit=64
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: USER=mobileprintsoft
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: COMMAND_MODE=unix2003
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: __CFBundleIdentifier=com.apple.InstallAssistant.macOSGoldenGate
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: PATH=/Users/mobileprintsoft/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: LOGNAME=mobileprintsoft
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.QzS2dD3W0G/Listeners
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: HOME=/Users/mobileprintsoft
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: SHELL=/bin/zsh
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: TMPDIR=/var/folders/z2/_r6f9svj6tx266zcxlds3r4h0000gn/T/
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: XPC_SERVICE_NAME=application.com.apple.InstallAssistant.macOSGoldenGate.142482588.142483901
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Env: XPC_FLAGS=0x0
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: BrainTrust.framework unavailable
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: Loading trustcache: /Applications/Install macOS 27 Golden Gate.app/Contents/CodeResources
+Nov  3 16:04:38 Mobiles-MacBook-Pro InstallAssistant[3074]: trustcachectl: Successfully loaded trustcache: "/Applications/Install macOS 27 Golden Gate.app/Contents/CodeResources" (3512)
+Nov  3 16:04:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: OSISSoftwareUpdateController: Using catalog (source: GM Default): https://swscan.apple.com/content/catalogs/others/index-27-26-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog.gz
+Nov  3 16:04:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: mountDiskImageWithPath: /Applications/Install macOS 27 Golden Gate.app/Contents/SharedSupport/SharedSupport.dmg
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: MiniSoftwareUpdate: using pinning policy for swscan.apple.com: MacSoftwareUpdate (included with OS)
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: OSISSoftwareUpdateController: Loaded catalog https://swscan.apple.com/content/catalogs/others/index-27-26-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog.gz (648 products)
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Mounting disk image complete, results dict = {
+	    "system-entities" =     (
+	                {
+	            "content-hint" = EFI;
+	            "dev-entry" = "/dev/disk5s1";
+	            "potentially-mountable" = 1;
+	            "unmapped-content-hint" = "C12A7328-F81F-11D2-BA4B-00A0C93EC93B";
+	            "volume-kind" = msdos;
+	        },
+	                {
+	            "content-hint" = "Apple_HFS";
+	            "dev-entry" = "/dev/disk5s2";
+	            "mount-point" = "/Volumes/Shared Support";
+	            "potentially-mountable" = 1;
+	            "unmapped-content-hint" = "48465300-0000-11AA-AA11-00306543ECAC";
+	            "volume-kind" = hfs;
+	        },
+	                {
+	            "content-hint" = "GUID_partition_scheme";
+	            "dev-entry" = "/dev/disk5";
+	            "potentially-mountable" = 0;
+	            "unmapped-content-hint" = "GUID_partition_scheme";
+	        }
+	    );
+	}
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Mount point /Volumes/Shared Support
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Will look for MobileAsset update bundle atPath: /Volumes/Shared Support/com_apple_MobileAsset_MacSoftwareUpdate/com_apple_MobileAsset_MacSoftwareUpdate.xml
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Extracting brain /Volumes/Shared Support/com_apple_MobileAsset_MobileSoftwareUpdate_MacUpdateBrain/5b5976fa2daa96ecb6efac962691ebed9431c1b4.zip -> /tmp/UpdateBrain-WyAWTUI4
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Extracting /Volumes/Shared Support/com_apple_MobileAsset_MobileSoftwareUpdate_MacUpdateBrain/5b5976fa2daa96ecb6efac962691ebed9431c1b4.zip -> /tmp/UpdateBrain-WyAWTUI4
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Finished extracting: succeeded
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Waking up update brain
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Waking up: 0.100000
+Nov  3 16:04:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Waking up: 1.000000
+Nov  3 16:04:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Waking up: 1.000000
+Nov  3 16:04:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Waking up: 1.000000
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Waking up: 99.900002
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Waking up: 100.000000
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Adding MobileSoftwareUpdate product: OSISMobileSoftwareUpdateProduct <brain: /Volumes/Shared Support/com_apple_MobileAsset_MobileSoftwareUpdate_MacUpdateBrain/5b5976fa2daa96ecb6efac962691ebed9431c1b4.zip, bundle: /Volumes/Shared Support/com_apple_MobileAsset_MacSoftwareUpdate/da5d4070865b20aa138e6fef954889710e559a06.zip>
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: IA OS Version: 27.0.1
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: IA OS Build: 26A434
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Using product <OSISPredicateUpdateProduct: 0xa2113c0a0> at distance 20
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: OSISPredicateUpdateProduct: Incompatible Apps List: Evaluating products in catalog
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Set reponsibility for install to 3074
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: osinstallersetupd registered client
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Will purge all copies except: /Applications/Install macOS 27 Golden Gate.app/Contents/Frameworks/OSInstallerSetup.framework/Versions/A/Resources
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk4s1
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk4s1 has no volume role. Assuming valid ownership state.
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1s1
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: MiniSoftwareUpdate: using pinning policy for swdist.apple.com: MacSoftwareUpdate (included with OS)
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s5
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk1s1
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk1s1 has no volume role. Assuming valid ownership state.
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s2
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk2s2 has no volume role. Assuming valid ownership state.
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk1s2
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk1s2 has no volume role. Assuming valid ownership state.
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s4
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk2s4 has no volume role. Assuming valid ownership state.
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk1s3
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk1s3 has no volume role. Assuming valid ownership state.
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s6
+Nov  3 16:04:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk2s6 has no volume role. Assuming valid ownership state.
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1s1
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: diskAppeared: disk5s1
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: Ignoring non-user-visible disk IADisk_10_6: disk5s1 EFI as target
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: diskAppeared: disk5s2
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: Ignoring non-user-visible disk IADisk_10_6: disk5s2 Shared Support as target
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: diskAppeared: disk5
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: Ignoring non-user-visible disk IADisk_10_6: disk5 (null) as target
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: diskMounted: disk5s2
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: Ignoring non-user-visible disk IADisk_10_6: disk5s2 Shared Support as target
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: Now using boot volume owners.
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: diskMounted: disk2s1
+Nov  3 16:04:43 Mobiles-MacBook-Pro InstallAssistant[3074]: Ignoring non-user-visible disk IADisk_10_6: disk2s1 Macintosh HD as target
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:04:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Device is supported
+Nov  3 16:04:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Will need to use bundled in license doc
+Nov  3 16:04:46 Mobiles-MacBook-Pro InstallAssistant[3074]: localizedLicenseURL: file:///Applications/Install%20macOS%2027%20Golden%20Gate.app/Contents/Resources/en.lproj/License.html
+Nov  3 16:04:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'system.ioregistry.fromPath('IODeviceTree:/rom\@0').version') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:50 Mobiles-MacBook-Pro InstallAssistant[3074]: OSISClient: Using kAuthorizationFlagSheet
+Nov  3 16:04:54 Mobiles-MacBook-Pro loginwindow[180]: BootTimeInstall: Service connection interrupted.
+Nov  3 16:04:55 Mobiles-MacBook-Pro accessoryupdaterd[114]: SUOSUExternalUpdateProvider: Sent available updates with (
+	)
+Nov  3 16:04:55 Mobiles-MacBook-Pro softwareupdated[378]: SUOSUServiceClientManager: Chose on-console client: SoftwareUpdateNotificationManager (type = sunm, pid = 876, uid = 501, path = /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager)
+Nov  3 16:04:55 Mobiles-MacBook-Pro softwareupdated[378]: Set available third party update infos to: (
+	)
+Nov  3 16:04:56 Mobiles-MacBook-Pro InstallAssistant[3074]: OSISClient: A password is available, proceeding with credential creation.
+Nov  3 16:04:56 Mobiles-MacBook-Pro InstallAssistant[3074]: Attempting to evaluate LAPolicyBoot
+Nov  3 16:04:56 Mobiles-MacBook-Pro InstallAssistant[3074]: OSISClient: Successfully evaluated local authentication policy
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: mountDiskImageWithPath: /Applications/Install macOS 27 Golden Gate.app/Contents/SharedSupport/SharedSupport.dmg
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Using product <OSISCollectionInstallProduct: 0xa236798c0> at distance 10
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Helper tool loaded
+Nov  3 16:04:56 Mobiles-MacBook-Pro osisstashhelper[3238]: Stash helper tool loaded.
+Nov  3 16:04:56 Mobiles-MacBook-Pro osisstashhelper[3238]: GetModel: model = MacBookPro; major rev = 17; minor rev = 1
+Nov  3 16:04:56 Mobiles-MacBook-Pro osisstashhelper[3238]: Machine appears to be AR capable
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:56 Mobiles-MacBook-Pro osisstashhelper[3238]: SecKeychainStash() succeeded
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Obtained stash credentials to commit before reboot
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: UI available: yes
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: PostLogoutApply: enabled
+Nov  3 16:04:56 Mobiles-MacBook-Pro InstallAssistant[3074]: OSISPowerAssertionManager: Take com.apple.InstallAssistant.RestartTimerPowerAssertion assertion with type PreventUserIdleSystemSleep for pid 3074, id 0x84D1
+Nov  3 16:04:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:57 Mobiles-MacBook-Pro softwareupdated[378]: SUOSUServiceDaemon: Untracked client connected: SoftwareUpdateSubscriber (type = untracked, pid = 3247, uid = 277, path = /System/Library/PrivateFrameworks/RemoteManagement.framework/XPCServices/SoftwareUpdateSubscriber.xpc/Contents/MacOS/SoftwareUpdateSubscriber)
+Nov  3 16:04:57 Mobiles-MacBook-Pro softwareupdated[378]: -[SUOSUManagedServiceDaemon allDeclarationsRemovingInvalidDeclarations:]_block_invoke: Removed 0 invalid declarations
+Nov  3 16:04:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:04:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: JS: No bundle at/Applications/SafeView.app
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: JS: 26.1
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to get bridge device
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: OSISPredicateUpdateProduct: Incompatible Apps List: Finished evaluating products in catalog (258 installable products)
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: OSISPredicateUpdateProduct: Incompatible Apps List: No product found
+Nov  3 16:05:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Failed to find incompatible apps list on software update catalog
+Nov  3 16:05:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Verify calculated time estimate: 84.095159 for /Applications/Install macOS 27 Golden Gate.app/Contents/SharedSupport/SharedSupport.dmg
+Nov  3 16:05:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Required package references: (
+	)
+Nov  3 16:05:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation queue started
+Nov  3 16:05:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Getting offset for dmg in pkg: /Applications/Install macOS 27 Golden Gate.app/Contents/SharedSupport/SharedSupport.dmg
+Nov  3 16:05:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Verifying SharedSupport.dmg
+Nov  3 16:05:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation success - OSISVerifyBaseSystemOperation
+Nov  3 16:05:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation started - OSISCreateMutableProductOperation
+Nov  3 16:05:15 Mobiles-MacBook-Pro osishelperd[3280]: Privileged helper tool loaded.
+Nov  3 16:05:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Using product PKSecureNetEnabledProduct <file:///var/folders/z2/_r6f9svj6tx266zcxlds3r4h0000gn/Cleanup%20At%20Startup/IAMSUProduct-3089.WyAWTUI4/macOSInstallData/> at distance 5
+Nov  3 16:05:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation success - OSISCreateMutableProductOperation
+Nov  3 16:05:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation success - OSISCleanUpSnapshotsOperation
+Nov  3 16:05:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation started - OSISCancelMobileSoftwareUpdateOperation
+Nov  3 16:05:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Canceling the current update
+Nov  3 16:05:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s3
+Nov  3 16:05:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk2s3 has no volume role. Assuming valid ownership state.
+Nov  3 16:05:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:05:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:05:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s3
+Nov  3 16:05:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk2s3 has no volume role. Assuming valid ownership state.
+Nov  3 16:05:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation success - OSISCancelMobileSoftwareUpdateOperation
+Nov  3 16:05:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation started - OSISUnarchiveMobileSoftwareUpdateOperation
+Nov  3 16:05:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Extracting /Volumes/Shared Support/com_apple_MobileAsset_MacSoftwareUpdate/da5d4070865b20aa138e6fef954889710e559a06.zip -> /var/folders/z2/_r6f9svj6tx266zcxlds3r4h0000gn/Cleanup At Startup/IAMSUProduct-3089.WyAWTUI4/UpdateBundle
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: SUOSUMobileSoftwareUpdateController: Scan finished
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: 	majorPrimaryDescriptor: (null)
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: 	minorPrimaryDescriptor: (null)
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: SUOSUServiceDaemon: Setting availableMobileSoftwareUpdates = (
+	)
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: -[SUOSUServiceDaemon _updateFilteredAvailableMobileSoftwareDescriptors:mdmInitiated:]_block_invoke: Resetting harvested passcode to nil
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: MSU updates have changed since last scan, do not restrict to full replacements anymore
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: bootpolicy_mdm_is_managed: 0
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: LP is not managed, check security mode to determine if we should use bootstrap token
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: SUScan: Scan for client pid 378 (/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated)
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: On full security mode, allow use of bootstrap token
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: SUOSULoginCredentialPolicyManager: No update downloaded and prepared.
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: SUOSUMobileSoftwareUpdateController: Appending additionalUpdateMetricEventFields: {
+	    AllowBootstrapTokenOnFullSecurity = true;
+	}
+Nov  3 16:05:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:05:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:05:17 Mobiles-MacBook-Pro softwareupdated[378]: Got status 200
+Nov  3 16:05:18 Mobiles-MacBook-Pro softwareupdated[378]: SUScan: Using catalog https://swscan.apple.com/content/catalogs/others/index-26-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog.gz
+Nov  3 16:05:19 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:19 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:19 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:19 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:19 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:19 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:19 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:20 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'system.ioregistry.fromPath('IODeviceTree:/rom\@0').version') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:20 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:20 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:20 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:20 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:20 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:20 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:21 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:21 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:21 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:21 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:21 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:21 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:21 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:21 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:22 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:22 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:22 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:22 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:22 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:23 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:23 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:23 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:23 Mobiles-MacBook-Pro softwareupdated[378]: JS: 26.1
+Nov  3 16:05:23 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:23 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:23 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:24 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:24 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:24 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:24 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:24 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:24 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:25 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:25 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:25 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:25 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:25 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:26 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:26 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:29 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:30 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:30 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:30 Mobiles-MacBook-Pro softwareupdated[378]: Failed to get bridge device
+Nov  3 16:05:30 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:30 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:30 Mobiles-MacBook-Pro softwareupdated[378]: JS: No bundle at/Applications/SafeView.app
+Nov  3 16:05:30 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:30 Mobiles-MacBook-Pro softwareupdated[378]: Package Authoring: error running installation-check script: TypeError: null is not an object (evaluating 'cpuFeatures.split') at x-distribution:///installer-gui-script%5B1%5D/installation-check%5B1%5D/@script
+Nov  3 16:05:31 Mobiles-MacBook-Pro softwareupdated[378]: SUScan: Elapsed scan time = 14.2
+Nov  3 16:05:31 Mobiles-MacBook-Pro softwareupdated[378]: Refreshing available updates from scan
+Nov  3 16:05:31 Mobiles-MacBook-Pro softwareupdated[378]: Scan (f=1, d=0) completed
+Nov  3 16:05:31 Mobiles-MacBook-Pro softwareupdated[378]: 0 updates found:
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _registerForScanCompletionNotification:outToken:]_block_invoke: Refreshing all available updates on behalf of com.apple.softwareupdate.ClientInitiatedScanSucceeded notification.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: External updates: (
+	)
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: SUOSUShimController: Refreshed available updates; new updates: []; new major updates: [142-50055, 142-27367, 142-15488, 142-50020, 142-28081, 142-16670, 140-93587, 140-77964, 140-71750, 142-50013, 142-27431, 142-16660, 140-85388, 140-71763, 140-88558, 140-75436, 093-22004, 062-40406, 052-60131, 047-32248, 042-45246]
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Evaluating products to determine the latest qualifying MajorOS product
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-50055) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-27367) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-15488) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-50020) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-28081) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-16670) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (140-93587) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (140-77964) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (140-71750) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-50013) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-27431) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (142-16660) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (140-85388) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (140-71763) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (140-88558) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (140-75436) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (093-22004) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (062-40406) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (052-60131) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (047-32248) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: -[SUOSUShimController _latestQualifyingMajorOSProduct]: Not considering majorOS update (042-45246) as qualifying because it is not MSU-based.
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: SUPreferenceManager: Setting LastRecommendedMajorOSBundleIdentifier =
+Nov  3 16:05:31 Mobiles-MacBook-Pro softwareupdated[378]: Client Pid:642 tried to set an SU Preference but is not entitled!
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: SUPreferenceManager: Failed to set object of class: __NSCFConstantString for key: LastRecommendedMajorOSBundleIdentifier with error: Error Domain=SUPreferenceManagerErrorDomain Code=1 "(null)"
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: SUOSUSafariController: No product available, clearing content
+Nov  3 16:05:31 Mobiles-MacBook-Pro Safari[642]: SUOSUShimController: Armed: 0, with mode: 0, date: (null), updates queued for later: (
+	)
+Nov  3 16:06:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Finished extracting: succeeded
+Nov  3 16:06:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Syncing extracted data to disk
+Nov  3 16:06:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Could not verify trust (5) using MobileSoftwareUpdate policy. Will try basic X509.
+Nov  3 16:06:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Validating integrity of extracted contents...
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Found BuildManifest.plist: /var/folders/z2/_r6f9svj6tx266zcxlds3r4h0000gn/Cleanup At Startup/IAMSUProduct-3089.WyAWTUI4/UpdateBundle/AssetData/boot/BuildManifest.plist
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Created descriptor: SUMacControllerDescriptor:
+	  humanReadableUpdateName: macOS 27.0.1
+	  humanReadableUpdateTitle: (null)
+	  humanReadableUpdateVersion: (null)
+	  humanReadableMoreInfoLink:(null)
+	  uniqueBuildID: (null)
+	  originalUpdateType: Major
+	  updateUUID: 595F172E-5F18-435D-B365-458BFC0EE890
+	  productVersion: 27.0.1
+	  productVersionExtra: (null)
+	  productBuildVersion: 26A434
+	  restoreVersion: 26.1.434.0.0,0
+	  releaseType: (null)
+	  productSystemName: macOS
+	  publisher: Apple Inc.
+	  productType: (null)
+	  releaseDate: (null)
+	  targetUpdateBridgeVersion: (null)
+	  targetUpdateSFRVersion: (null)
+	  prerequisiteBuild: (null)
+	  prerequisiteOSVersion: (null)
+	  fullReplacement: YES
+	  supportedDevices: (null)
+	  downloadSize: 0
+	  unarchivedSize: 0
+	  msuPrepareSize: 0
+	  preparationSize: 0
+	  installationSize: 0
+	  minimumSystemPartitionSize: 0
+	  macTotalRequiredFreeSpace: 0
+	  totalRequiredDownloadSize: 0
+	  totalRequiredFreeSpace: 0
+	  preSUStagingRequiredSize: 0
+	  preSUStagingOptionalSize: 0
+	  enablePreSUStaging: NO
+	  preSUStagingOutcome: 0
+	  preSUStagingError: (null)
+	  disableSecurityAdvisoryNotification: NO
+	  disableDeviceCompatibilityNotification: NO
+	  alignediOSMajorVersion: (null)
+	  streamingZipCapable: NO
+	  autoDownloadAllowableOverCellular: NO
+	  downloadable: NO
+	  autoUpdateEnabled: NO
+	  mdmDelayInterval: 0
+	  forcePasscodeRequired: NO
+	  criticalUpdate: NO
+	  autoInstallDelay: 0
+	  notifyAfter: NO
+	  requireInstallAssistantUpdate: NO
+	  disableMASuspension: NO
+	  rampEnabled: NO
+	  granularlyRamped: NO
+	  oneShotBuddyDisabled: NO
+	  oneShotBuddyDisabledBuilds: (null)
+	  mandatoryUpdateEligible: NO
+	  mandatoryUpdateVersionMin: (null)
+	  mandatoryUpdateVersionMax: (null)
+	  mandatoryUpdateOptional: NO
+	  mandatoryUpdateRestrictedToOutOfTheBox: NO
+	  isSplatAssetType: NO
+	  splatOnly: NO
+	  splatSemiSplatEnabled: NO
+	  splatSemiSplatMustQuitApps: NO
+	  splatRevoked: NO
+	  semiSplatRestartNow: NO
+	  splatAssetTypNov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Using product <OSISMSUBundleProduct: 0xa23c38450> at distance 10
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation success - OSISUnarchiveMobileSoftwareUpdateOperation
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation started - OSISDownloadOperation
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Required package references: (
+	)
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: OSISDownloadOperation: No IAL update found.
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Retrieving 0 packages (0.000 GB)
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Retrieving 0 packages (0.000 GB)
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation success - OSISDownloadOperation
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation started - OSISFetchSFROperation
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Starting SFR scan (target restore version: 26.1.434.0.0,0, build version: 26A434, product version: 27.0.1)
+Nov  3 16:08:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:SFR_SOFTWARE_UPDATE stalled:NO portionComplete:20.000000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:SFR_SOFTWARE_UPDATE stalled:NO portionComplete:29.000000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:UPDATE_BRAIN stalled:NO portionComplete:70.000000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:UPDATE_BRAIN stalled:NO portionComplete:79.000000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:COMPLETE stalled:NO portionComplete:100.000000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Found SFR update: SUMacControllerDescriptor:
+	  humanReadableUpdateName: (null)
+	  humanReadableUpdateTitle: (null)
+	  humanReadableUpdateVersion: (null)
+	  humanReadableMoreInfoLink:(null)
+	  uniqueBuildID: (null)
+	  originalUpdateType: NotSet
+	  updateUUID: 76A07ABC-0E24-5CD8-98AB-54AB69142CE9
+	  productVersion: 27.0.1
+	  productVersionExtra: (null)
+	  productBuildVersion: 26A434
+	  restoreVersion: 26.1.434.0.0,0
+	  releaseType: (null)
+	  productSystemName: (null)
+	  publisher: (null)
+	  productType: (null)
+	  releaseDate: (null)
+	  targetUpdateBridgeVersion: (null)
+	  targetUpdateSFRVersion: (null)
+	  prerequisiteBuild: (null)
+	  prerequisiteOSVersion: (null)
+	  fullReplacement: NO
+	  supportedDevices: (null)
+	  downloadSize: 0
+	  unarchivedSize: 0
+	  msuPrepareSize: 0
+	  preparationSize: 0
+	  installationSize: 0
+	  minimumSystemPartitionSize: 0
+	  macTotalRequiredFreeSpace: 0
+	  totalRequiredDownloadSize: 3175880265
+	  totalRequiredFreeSpace: 3868161024
+	  preSUStagingRequiredSize: 0
+	  preSUStagingOptionalSize: 0
+	  enablePreSUStaging: NO
+	  preSUStagingOutcome: 0
+	  preSUStagingError: (null)
+	  disableSecurityAdvisoryNotification: NO
+	  disableDeviceCompatibilityNotification: NO
+	  alignediOSMajorVersion: (null)
+	  streamingZipCapable: NO
+	  autoDownloadAllowableOverCellular: NO
+	  downloadable: NO
+	  autoUpdateEnabled: NO
+	  mdmDelayInterval: 0
+	  forcePasscodeRequired: NO
+	  criticalUpdate: NO
+	  autoInstallDelay: 0
+	  notifyAfter: NO
+	  requireInstallAssistantUpdate: NO
+	  disableMASuspension: NO
+	  rampEnabled: NO
+	  granularlyRamped: NO
+	  oneShotBuddyDisabled: NO
+	  oneShotBuddyDisabledBuilds: (null)
+	  mandatoryUpdateEligible: NO
+	  mandatoryUpdateVersionMin: (null)
+	  mandatoryUpdateVersionMax: (null)
+	  mandatoryUpdateOptional: NO
+	  mandatoryUpdateRestrictedToOutOfTheBox: NO
+	  isSplatAssetType: NO
+	  splatOnly: NO
+	  splatSemiSplatEnabled: NO
+	  splatSemiSplatMustQuitApps: NO
+	  splatRevoked: NO
+	  semiSplatRestartNow: NO
+	  splatANov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Found SFR version: 26.2.123.0.0,0
+Nov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Bundled SFR version: 26.1.434.0.0,0
+Nov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Starting SFR download
+Nov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:ACCEPTED stalled:NO portionComplete:0.001000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:RELOADING_SFR stalled:NO portionComplete:0.010000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:RELOADING_SFR stalled:NO portionComplete:0.049000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:RELOADING_SFR stalled:NO portionComplete:0.049000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:RELOADING_UPDATE_BRAIN stalled:NO portionComplete:0.050000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:RELOADING_UPDATE_BRAIN stalled:NO portionComplete:0.099000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_UPDATE_BRAIN stalled:NO portionComplete:0.100000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_UPDATE_BRAIN stalled:NO portionComplete:0.100000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_UPDATE_BRAIN stalled:NO portionComplete:0.100000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_UPDATE_BRAIN stalled:NO portionComplete:0.199000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_WAKEUP stalled:NO portionComplete:0.200000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:08:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_WAKEUP stalled:NO portionComplete:0.200000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:08:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s3
+Nov  3 16:08:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk2s3 has no volume role. Assuming valid ownership state.
+Nov  3 16:08:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_WAKEUP stalled:NO portionComplete:0.200000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:08:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:08:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s3
+Nov  3 16:08:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk2s3 has no volume role. Assuming valid ownership state.
+Nov  3 16:08:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_WAKEUP stalled:NO portionComplete:0.200000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_WAKEUP stalled:NO portionComplete:0.299000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_PREREQUISITE stalled:NO portionComplete:0.300000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_PREREQUISITE stalled:NO portionComplete:0.300000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:08:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_PREREQUISITE stalled:NO portionComplete:0.349000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.450000 estimatedTimeRemaining:-1.000000
+Nov  3 16:08:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.465346 totalWrittenBytes:88571904 totalExpectedBytes:3168739662 estimatedTimeRemaining:347.755554
+Nov  3 16:08:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.465346 totalWrittenBytes:88571904 totalExpectedBytes:3168739662 estimatedTimeRemaining:347.755554
+Nov  3 16:08:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.467378 totalWrittenBytes:100302848 totalExpectedBytes:3168739662 estimatedTimeRemaining:336.502686
+Nov  3 16:08:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.467378 totalWrittenBytes:100302848 totalExpectedBytes:3168739662 estimatedTimeRemaining:336.502686
+Nov  3 16:08:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.469408 totalWrittenBytes:112017408 totalExpectedBytes:3168739662 estimatedTimeRemaining:327.448944
+Nov  3 16:08:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.469408 totalWrittenBytes:112017408 totalExpectedBytes:3168739662 estimatedTimeRemaining:327.448944
+Nov  3 16:08:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.470935 totalWrittenBytes:120832000 totalExpectedBytes:3168739662 estimatedTimeRemaining:327.910370
+Nov  3 16:08:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.470935 totalWrittenBytes:120832000 totalExpectedBytes:3168739662 estimatedTimeRemaining:327.910370
+Nov  3 16:08:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.472959 totalWrittenBytes:132513792 totalExpectedBytes:3168739662 estimatedTimeRemaining:320.768066
+Nov  3 16:08:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.472959 totalWrittenBytes:132513792 totalExpectedBytes:3168739662 estimatedTimeRemaining:320.768066
+Nov  3 16:08:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.474917 totalWrittenBytes:143818752 totalExpectedBytes:3168739662 estimatedTimeRemaining:315.476929
+Nov  3 16:08:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.474917 totalWrittenBytes:143818752 totalExpectedBytes:3168739662 estimatedTimeRemaining:315.476929
+Nov  3 16:08:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.476930 totalWrittenBytes:155435008 totalExpectedBytes:3168739662 estimatedTimeRemaining:310.173615
+Nov  3 16:08:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.476930 totalWrittenBytes:155435008 totalExpectedBytes:3168739662 estimatedTimeRemaining:310.173615
+Nov  3 16:08:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.478954 totalWrittenBytes:167116800 totalExpectedBytes:3168739662 estimatedTimeRemaining:305.320099
+Nov  3 16:08:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.478954 totalWrittenBytes:167116800 totalExpectedBytes:3168739662 estimatedTimeRemaining:305.320099
+Nov  3 16:08:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.480986 totalWrittenBytes:178847744 totalExpectedBytes:3168739662 estimatedTimeRemaining:300.893433
+Nov  3 16:08:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.480986 totalWrittenBytes:178847744 totalExpectedBytes:3168739662 estimatedTimeRemaining:300.893433
+Nov  3 16:08:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.483019 totalWrittenBytes:190578688 totalExpectedBytes:3168739662 estimatedTimeRemaining:296.904358
+Nov  3 16:08:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.483019 totalWrittenBytes:190578688 totalExpectedBytes:3168739662 estimatedTimeRemaining:296.904358
+Nov  3 16:08:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.485043 totalWrittenBytes:202260480 totalExpectedBytes:3168739662 estimatedTimeRemaining:293.325317
+Nov  3 16:08:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.485043 totalWrittenBytes:202260480 totalExpectedBytes:3168739662 estimatedTimeRemaining:293.325317
+Nov  3 16:08:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.487084 totalWrittenBytes:214040576 totalExpectedBytes:3168739662 estimatedTimeRemaining:289.899017
+Nov  3 16:08:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.487084 totalWrittenBytes:214040576 totalExpectedBytes:3168739662 estimatedTimeRemaining:289.899017
+Nov  3 16:08:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.489073 totalWrittenBytes:225525760 totalExpectedBytes:3168739662 estimatedTimeRemaining:287.053284
+Nov  3 16:08:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.489073 totalWrittenBytes:225525760 totalExpectedBytes:3168739662 estimatedTimeRemaining:287.053284
+Nov  3 16:08:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.491106 totalWrittenBytes:237256704 totalExpectedBytes:3168739662 estimatedTimeRemaining:284.163574
+Nov  3 16:08:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.491106 totalWrittenBytes:237256704 totalExpectedBytes:3168739662 estimatedTimeRemaining:284.163574
+Nov  3 16:08:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.493138 totalWrittenBytes:248987648 totalExpectedBytes:3168739662 estimatedTimeRemaining:281.424316
+Nov  3 16:08:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.493138 totalWrittenBytes:248987648 totalExpectedBytes:3168739662 estimatedTimeRemaining:281.424316
+Nov  3 16:08:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.495159 totalWrittenBytes:260653056 totalExpectedBytes:3168739662 estimatedTimeRemaining:278.916290
+Nov  3 16:08:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.495159 totalWrittenBytes:260653056 totalExpectedBytes:3168739662 estimatedTimeRemaining:278.916290
+Nov  3 16:08:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.497161 totalWrittenBytes:272203776 totalExpectedBytes:3168739662 estimatedTimeRemaining:276.660339
+Nov  3 16:08:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.497161 totalWrittenBytes:272203776 totalExpectedBytes:3168739662 estimatedTimeRemaining:276.660339
+Nov  3 16:08:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.499196 totalWrittenBytes:283951104 totalExpectedBytes:3168739662 estimatedTimeRemaining:274.298187
+Nov  3 16:08:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.499196 totalWrittenBytes:283951104 totalExpectedBytes:3168739662 estimatedTimeRemaining:274.298187
+Nov  3 16:08:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.501217 totalWrittenBytes:295616512 totalExpectedBytes:3168739662 estimatedTimeRemaining:272.127350
+Nov  3 16:08:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.501217 totalWrittenBytes:295616512 totalExpectedBytes:3168739662 estimatedTimeRemaining:272.127350
+Nov  3 16:08:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.503249 totalWrittenBytes:307347456 totalExpectedBytes:3168739662 estimatedTimeRemaining:269.981659
+Nov  3 16:08:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.503249 totalWrittenBytes:307347456 totalExpectedBytes:3168739662 estimatedTimeRemaining:269.981659
+Nov  3 16:08:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.505285 totalWrittenBytes:319094784 totalExpectedBytes:3168739662 estimatedTimeRemaining:267.904510
+Nov  3 16:08:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.505285 totalWrittenBytes:319094784 totalExpectedBytes:3168739662 estimatedTimeRemaining:267.904510
+Nov  3 16:08:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.507317 totalWrittenBytes:330825728 totalExpectedBytes:3168739662 estimatedTimeRemaining:265.910034
+Nov  3 16:08:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.507317 totalWrittenBytes:330825728 totalExpectedBytes:3168739662 estimatedTimeRemaining:265.910034
+Nov  3 16:08:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.509006 totalWrittenBytes:340574208 totalExpectedBytes:3168739662 estimatedTimeRemaining:265.722565
+Nov  3 16:08:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.509006 totalWrittenBytes:340574208 totalExpectedBytes:3168739662 estimatedTimeRemaining:265.722565
+Nov  3 16:08:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.510885 totalWrittenBytes:351420416 totalExpectedBytes:3168739662 estimatedTimeRemaining:264.550079
+Nov  3 16:08:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.510885 totalWrittenBytes:351420416 totalExpectedBytes:3168739662 estimatedTimeRemaining:264.550079
+Nov  3 16:08:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.512906 totalWrittenBytes:363085824 totalExpectedBytes:3168739662 estimatedTimeRemaining:262.717651
+Nov  3 16:08:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.512906 totalWrittenBytes:363085824 totalExpectedBytes:3168739662 estimatedTimeRemaining:262.717651
+Nov  3 16:08:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.514933 totalWrittenBytes:374784000 totalExpectedBytes:3168739662 estimatedTimeRemaining:260.910492
+Nov  3 16:08:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.514933 totalWrittenBytes:374784000 totalExpectedBytes:3168739662 estimatedTimeRemaining:260.910492
+Nov  3 16:08:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.516932 totalWrittenBytes:386318336 totalExpectedBytes:3168739662 estimatedTimeRemaining:259.277893
+Nov  3 16:08:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.516932 totalWrittenBytes:386318336 totalExpectedBytes:3168739662 estimatedTimeRemaining:259.277893
+Nov  3 16:08:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.518956 totalWrittenBytes:398000128 totalExpectedBytes:3168739662 estimatedTimeRemaining:257.572632
+Nov  3 16:08:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.518956 totalWrittenBytes:398000128 totalExpectedBytes:3168739662 estimatedTimeRemaining:257.572632
+Nov  3 16:08:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.520988 totalWrittenBytes:409731072 totalExpectedBytes:3168739662 estimatedTimeRemaining:255.872177
+Nov  3 16:08:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.520988 totalWrittenBytes:409731072 totalExpectedBytes:3168739662 estimatedTimeRemaining:255.872177
+Nov  3 16:08:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.523032 totalWrittenBytes:421527552 totalExpectedBytes:3168739662 estimatedTimeRemaining:254.165421
+Nov  3 16:08:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.523032 totalWrittenBytes:421527552 totalExpectedBytes:3168739662 estimatedTimeRemaining:254.165421
+Nov  3 16:08:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.524953 totalWrittenBytes:432619520 totalExpectedBytes:3168739662 estimatedTimeRemaining:252.970169
+Nov  3 16:08:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.524953 totalWrittenBytes:432619520 totalExpectedBytes:3168739662 estimatedTimeRemaining:252.970169
+Nov  3 16:08:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.526679 totalWrittenBytes:442580992 totalExpectedBytes:3168739662 estimatedTimeRemaining:252.538254
+Nov  3 16:08:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.526679 totalWrittenBytes:442580992 totalExpectedBytes:3168739662 estimatedTimeRemaining:252.538254
+Nov  3 16:08:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.528632 totalWrittenBytes:453853184 totalExpectedBytes:3168739662 estimatedTimeRemaining:251.229111
+Nov  3 16:08:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.528632 totalWrittenBytes:453853184 totalExpectedBytes:3168739662 estimatedTimeRemaining:251.229111
+Nov  3 16:08:55 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.530174 totalWrittenBytes:462749696 totalExpectedBytes:3168739662 estimatedTimeRemaining:251.439087
+Nov  3 16:08:55 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.530174 totalWrittenBytes:462749696 totalExpectedBytes:3168739662 estimatedTimeRemaining:251.439087
+Nov  3 16:08:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.532121 totalWrittenBytes:473989120 totalExpectedBytes:3168739662 estimatedTimeRemaining:250.142502
+Nov  3 16:08:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.532121 totalWrittenBytes:473989120 totalExpectedBytes:3168739662 estimatedTimeRemaining:250.142502
+Nov  3 16:08:57 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.534023 totalWrittenBytes:484966400 totalExpectedBytes:3168739662 estimatedTimeRemaining:249.016632
+Nov  3 16:08:57 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.534023 totalWrittenBytes:484966400 totalExpectedBytes:3168739662 estimatedTimeRemaining:249.016632
+Nov  3 16:08:58 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.536126 totalWrittenBytes:497106944 totalExpectedBytes:3168739662 estimatedTimeRemaining:247.212173
+Nov  3 16:08:58 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.536126 totalWrittenBytes:497106944 totalExpectedBytes:3168739662 estimatedTimeRemaining:247.212173
+Nov  3 16:08:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.538113 totalWrittenBytes:508575744 totalExpectedBytes:3168739662 estimatedTimeRemaining:245.830444
+Nov  3 16:08:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.538113 totalWrittenBytes:508575744 totalExpectedBytes:3168739662 estimatedTimeRemaining:245.830444
+Nov  3 16:09:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.540137 totalWrittenBytes:520257536 totalExpectedBytes:3168739662 estimatedTimeRemaining:244.345856
+Nov  3 16:09:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.540137 totalWrittenBytes:520257536 totalExpectedBytes:3168739662 estimatedTimeRemaining:244.345856
+Nov  3 16:09:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.542175 totalWrittenBytes:532021248 totalExpectedBytes:3168739662 estimatedTimeRemaining:242.837433
+Nov  3 16:09:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.542175 totalWrittenBytes:532021248 totalExpectedBytes:3168739662 estimatedTimeRemaining:242.837433
+Nov  3 16:09:02 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.544196 totalWrittenBytes:543686656 totalExpectedBytes:3168739662 estimatedTimeRemaining:241.404007
+Nov  3 16:09:02 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.544196 totalWrittenBytes:543686656 totalExpectedBytes:3168739662 estimatedTimeRemaining:241.404007
+Nov  3 16:09:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.546229 totalWrittenBytes:555417600 totalExpectedBytes:3168739662 estimatedTimeRemaining:239.954071
+Nov  3 16:09:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.546229 totalWrittenBytes:555417600 totalExpectedBytes:3168739662 estimatedTimeRemaining:239.954071
+Nov  3 16:09:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.548256 totalWrittenBytes:567115776 totalExpectedBytes:3168739662 estimatedTimeRemaining:238.524536
+Nov  3 16:09:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.548256 totalWrittenBytes:567115776 totalExpectedBytes:3168739662 estimatedTimeRemaining:238.524536
+Nov  3 16:09:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.549791 totalWrittenBytes:575979520 totalExpectedBytes:3168739662 estimatedTimeRemaining:238.562866
+Nov  3 16:09:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.549791 totalWrittenBytes:575979520 totalExpectedBytes:3168739662 estimatedTimeRemaining:238.562866
+Nov  3 16:09:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.551827 totalWrittenBytes:587726848 totalExpectedBytes:3168739662 estimatedTimeRemaining:237.131149
+Nov  3 16:09:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.551827 totalWrittenBytes:587726848 totalExpectedBytes:3168739662 estimatedTimeRemaining:237.131149
+Nov  3 16:09:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.553851 totalWrittenBytes:599408640 totalExpectedBytes:3168739662 estimatedTimeRemaining:235.743652
+Nov  3 16:09:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.553851 totalWrittenBytes:599408640 totalExpectedBytes:3168739662 estimatedTimeRemaining:235.743652
+Nov  3 16:09:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.555880 totalWrittenBytes:611123200 totalExpectedBytes:3168739662 estimatedTimeRemaining:234.353241
+Nov  3 16:09:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.555880 totalWrittenBytes:611123200 totalExpectedBytes:3168739662 estimatedTimeRemaining:234.353241
+Nov  3 16:09:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.557913 totalWrittenBytes:622854144 totalExpectedBytes:3168739662 estimatedTimeRemaining:232.974335
+Nov  3 16:09:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.557913 totalWrittenBytes:622854144 totalExpectedBytes:3168739662 estimatedTimeRemaining:232.974335
+Nov  3 16:09:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.559908 totalWrittenBytes:634372096 totalExpectedBytes:3168739662 estimatedTimeRemaining:231.704346
+Nov  3 16:09:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.559908 totalWrittenBytes:634372096 totalExpectedBytes:3168739662 estimatedTimeRemaining:231.704346
+Nov  3 16:09:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.561941 totalWrittenBytes:646103040 totalExpectedBytes:3168739662 estimatedTimeRemaining:230.348511
+Nov  3 16:09:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.561941 totalWrittenBytes:646103040 totalExpectedBytes:3168739662 estimatedTimeRemaining:230.348511
+Nov  3 16:09:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.563973 totalWrittenBytes:657833984 totalExpectedBytes:3168739662 estimatedTimeRemaining:229.005646
+Nov  3 16:09:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.563973 totalWrittenBytes:657833984 totalExpectedBytes:3168739662 estimatedTimeRemaining:229.005646
+Nov  3 16:09:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.566005 totalWrittenBytes:669564928 totalExpectedBytes:3168739662 estimatedTimeRemaining:223.942184
+Nov  3 16:09:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.566005 totalWrittenBytes:669564928 totalExpectedBytes:3168739662 estimatedTimeRemaining:223.942184
+Nov  3 16:09:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.568029 totalWrittenBytes:681246720 totalExpectedBytes:3168739662 estimatedTimeRemaining:219.073196
+Nov  3 16:09:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.568029 totalWrittenBytes:681246720 totalExpectedBytes:3168739662 estimatedTimeRemaining:219.073196
+Nov  3 16:09:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.569565 totalWrittenBytes:690110464 totalExpectedBytes:3168739662 estimatedTimeRemaining:217.764572
+Nov  3 16:09:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.569565 totalWrittenBytes:690110464 totalExpectedBytes:3168739662 estimatedTimeRemaining:217.764572
+Nov  3 16:09:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.571600 totalWrittenBytes:701857792 totalExpectedBytes:3168739662 estimatedTimeRemaining:216.543213
+Nov  3 16:09:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.571600 totalWrittenBytes:701857792 totalExpectedBytes:3168739662 estimatedTimeRemaining:216.543213
+Nov  3 16:09:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.573621 totalWrittenBytes:713523200 totalExpectedBytes:3168739662 estimatedTimeRemaining:215.515121
+Nov  3 16:09:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.573621 totalWrittenBytes:713523200 totalExpectedBytes:3168739662 estimatedTimeRemaining:215.515121
+Nov  3 16:09:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.575657 totalWrittenBytes:725270528 totalExpectedBytes:3168739662 estimatedTimeRemaining:214.478607
+Nov  3 16:09:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.575657 totalWrittenBytes:725270528 totalExpectedBytes:3168739662 estimatedTimeRemaining:214.478607
+Nov  3 16:09:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.577689 totalWrittenBytes:737001472 totalExpectedBytes:3168739662 estimatedTimeRemaining:213.456467
+Nov  3 16:09:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.577689 totalWrittenBytes:737001472 totalExpectedBytes:3168739662 estimatedTimeRemaining:213.456467
+Nov  3 16:09:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.579676 totalWrittenBytes:748470272 totalExpectedBytes:3168739662 estimatedTimeRemaining:212.508286
+Nov  3 16:09:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.579676 totalWrittenBytes:748470272 totalExpectedBytes:3168739662 estimatedTimeRemaining:212.508286
+Nov  3 16:09:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.581712 totalWrittenBytes:760217600 totalExpectedBytes:3168739662 estimatedTimeRemaining:211.476913
+Nov  3 16:09:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.581712 totalWrittenBytes:760217600 totalExpectedBytes:3168739662 estimatedTimeRemaining:211.476913
+Nov  3 16:09:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.583744 totalWrittenBytes:771948544 totalExpectedBytes:3168739662 estimatedTimeRemaining:210.426605
+Nov  3 16:09:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.583744 totalWrittenBytes:771948544 totalExpectedBytes:3168739662 estimatedTimeRemaining:210.426605
+Nov  3 16:09:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.585776 totalWrittenBytes:783679488 totalExpectedBytes:3168739662 estimatedTimeRemaining:209.396851
+Nov  3 16:09:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.585776 totalWrittenBytes:783679488 totalExpectedBytes:3168739662 estimatedTimeRemaining:209.396851
+Nov  3 16:09:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.587809 totalWrittenBytes:795410432 totalExpectedBytes:3168739662 estimatedTimeRemaining:208.361969
+Nov  3 16:09:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.587809 totalWrittenBytes:795410432 totalExpectedBytes:3168739662 estimatedTimeRemaining:208.361969
+Nov  3 16:09:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.589674 totalWrittenBytes:806174720 totalExpectedBytes:3168739662 estimatedTimeRemaining:206.826767
+Nov  3 16:09:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.589674 totalWrittenBytes:806174720 totalExpectedBytes:3168739662 estimatedTimeRemaining:206.826767
+Nov  3 16:09:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.591363 totalWrittenBytes:815923200 totalExpectedBytes:3168739662 estimatedTimeRemaining:206.556137
+Nov  3 16:09:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.591363 totalWrittenBytes:815923200 totalExpectedBytes:3168739662 estimatedTimeRemaining:206.556137
+Nov  3 16:09:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.593398 totalWrittenBytes:827670528 totalExpectedBytes:3168739662 estimatedTimeRemaining:205.392975
+Nov  3 16:09:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.593398 totalWrittenBytes:827670528 totalExpectedBytes:3168739662 estimatedTimeRemaining:205.392975
+Nov  3 16:09:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.595425 totalWrittenBytes:839368704 totalExpectedBytes:3168739662 estimatedTimeRemaining:204.340942
+Nov  3 16:09:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.595425 totalWrittenBytes:839368704 totalExpectedBytes:3168739662 estimatedTimeRemaining:204.340942
+Nov  3 16:09:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.597460 totalWrittenBytes:851116032 totalExpectedBytes:3168739662 estimatedTimeRemaining:203.293045
+Nov  3 16:09:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.597460 totalWrittenBytes:851116032 totalExpectedBytes:3168739662 estimatedTimeRemaining:203.293045
+Nov  3 16:09:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.599484 totalWrittenBytes:862797824 totalExpectedBytes:3168739662 estimatedTimeRemaining:202.283325
+Nov  3 16:09:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.599484 totalWrittenBytes:862797824 totalExpectedBytes:3168739662 estimatedTimeRemaining:202.283325
+Nov  3 16:09:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.601516 totalWrittenBytes:874528768 totalExpectedBytes:3168739662 estimatedTimeRemaining:201.251785
+Nov  3 16:09:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.601516 totalWrittenBytes:874528768 totalExpectedBytes:3168739662 estimatedTimeRemaining:201.251785
+Nov  3 16:09:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.603555 totalWrittenBytes:886292480 totalExpectedBytes:3168739662 estimatedTimeRemaining:200.195740
+Nov  3 16:09:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.603555 totalWrittenBytes:886292480 totalExpectedBytes:3168739662 estimatedTimeRemaining:200.195740
+Nov  3 16:09:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.605587 totalWrittenBytes:898023424 totalExpectedBytes:3168739662 estimatedTimeRemaining:199.174759
+Nov  3 16:09:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.605587 totalWrittenBytes:898023424 totalExpectedBytes:3168739662 estimatedTimeRemaining:199.174759
+Nov  3 16:09:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.607617 totalWrittenBytes:909737984 totalExpectedBytes:3168739662 estimatedTimeRemaining:198.098236
+Nov  3 16:09:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.607617 totalWrittenBytes:909737984 totalExpectedBytes:3168739662 estimatedTimeRemaining:198.098236
+Nov  3 16:09:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.609643 totalWrittenBytes:921436160 totalExpectedBytes:3168739662 estimatedTimeRemaining:197.073425
+Nov  3 16:09:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.609643 totalWrittenBytes:921436160 totalExpectedBytes:3168739662 estimatedTimeRemaining:197.073425
+Nov  3 16:09:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.611179 totalWrittenBytes:930299904 totalExpectedBytes:3168739662 estimatedTimeRemaining:197.120514
+Nov  3 16:09:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.611179 totalWrittenBytes:930299904 totalExpectedBytes:3168739662 estimatedTimeRemaining:197.120514
+Nov  3 16:09:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.613200 totalWrittenBytes:941965312 totalExpectedBytes:3168739662 estimatedTimeRemaining:196.090485
+Nov  3 16:09:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.613200 totalWrittenBytes:941965312 totalExpectedBytes:3168739662 estimatedTimeRemaining:196.090485
+Nov  3 16:09:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.615238 totalWrittenBytes:953729024 totalExpectedBytes:3168739662 estimatedTimeRemaining:194.995224
+Nov  3 16:09:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.615238 totalWrittenBytes:953729024 totalExpectedBytes:3168739662 estimatedTimeRemaining:194.995224
+Nov  3 16:09:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.617265 totalWrittenBytes:965427200 totalExpectedBytes:3168739662 estimatedTimeRemaining:193.979507
+Nov  3 16:09:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.617265 totalWrittenBytes:965427200 totalExpectedBytes:3168739662 estimatedTimeRemaining:193.979507
+Nov  3 16:09:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.619298 totalWrittenBytes:977158144 totalExpectedBytes:3168739662 estimatedTimeRemaining:192.928116
+Nov  3 16:09:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.619298 totalWrittenBytes:977158144 totalExpectedBytes:3168739662 estimatedTimeRemaining:192.928116
+Nov  3 16:09:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.621285 totalWrittenBytes:988626944 totalExpectedBytes:3168739662 estimatedTimeRemaining:191.992233
+Nov  3 16:09:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.621285 totalWrittenBytes:988626944 totalExpectedBytes:3168739662 estimatedTimeRemaining:191.992233
+Nov  3 16:09:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.623320 totalWrittenBytes:1000374272 totalExpectedBytes:3168739662 estimatedTimeRemaining:190.957870
+Nov  3 16:09:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.623320 totalWrittenBytes:1000374272 totalExpectedBytes:3168739662 estimatedTimeRemaining:190.957870
+Nov  3 16:09:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.625352 totalWrittenBytes:1012105216 totalExpectedBytes:3168739662 estimatedTimeRemaining:189.927765
+Nov  3 16:09:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.625352 totalWrittenBytes:1012105216 totalExpectedBytes:3168739662 estimatedTimeRemaining:189.927765
+Nov  3 16:09:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.627385 totalWrittenBytes:1023836160 totalExpectedBytes:3168739662 estimatedTimeRemaining:188.344223
+Nov  3 16:09:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.627385 totalWrittenBytes:1023836160 totalExpectedBytes:3168739662 estimatedTimeRemaining:188.344223
+Nov  3 16:09:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.629414 totalWrittenBytes:1035550720 totalExpectedBytes:3168739662 estimatedTimeRemaining:187.077866
+Nov  3 16:09:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.629414 totalWrittenBytes:1035550720 totalExpectedBytes:3168739662 estimatedTimeRemaining:187.077866
+Nov  3 16:09:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.630993 totalWrittenBytes:1044660224 totalExpectedBytes:3168739662 estimatedTimeRemaining:186.977356
+Nov  3 16:09:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.630993 totalWrittenBytes:1044660224 totalExpectedBytes:3168739662 estimatedTimeRemaining:186.977356
+Nov  3 16:09:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.633025 totalWrittenBytes:1056391168 totalExpectedBytes:3168739662 estimatedTimeRemaining:185.935822
+Nov  3 16:09:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.633025 totalWrittenBytes:1056391168 totalExpectedBytes:3168739662 estimatedTimeRemaining:185.935822
+Nov  3 16:09:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.635055 totalWrittenBytes:1068105728 totalExpectedBytes:3168739662 estimatedTimeRemaining:184.855682
+Nov  3 16:09:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.635055 totalWrittenBytes:1068105728 totalExpectedBytes:3168739662 estimatedTimeRemaining:184.855682
+Nov  3 16:09:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.637084 totalWrittenBytes:1079820288 totalExpectedBytes:3168739662 estimatedTimeRemaining:183.815903
+Nov  3 16:09:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.637084 totalWrittenBytes:1079820288 totalExpectedBytes:3168739662 estimatedTimeRemaining:183.815903
+Nov  3 16:09:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.639122 totalWrittenBytes:1091584000 totalExpectedBytes:3168739662 estimatedTimeRemaining:182.772018
+Nov  3 16:09:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.639122 totalWrittenBytes:1091584000 totalExpectedBytes:3168739662 estimatedTimeRemaining:182.772018
+Nov  3 16:09:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.641155 totalWrittenBytes:1103314944 totalExpectedBytes:3168739662 estimatedTimeRemaining:181.757141
+Nov  3 16:09:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.641155 totalWrittenBytes:1103314944 totalExpectedBytes:3168739662 estimatedTimeRemaining:181.757141
+Nov  3 16:09:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.643187 totalWrittenBytes:1115045888 totalExpectedBytes:3168739662 estimatedTimeRemaining:180.557144
+Nov  3 16:09:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.643187 totalWrittenBytes:1115045888 totalExpectedBytes:3168739662 estimatedTimeRemaining:180.557144
+Nov  3 16:09:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.645211 totalWrittenBytes:1126727680 totalExpectedBytes:3168739662 estimatedTimeRemaining:179.077332
+Nov  3 16:09:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.645211 totalWrittenBytes:1126727680 totalExpectedBytes:3168739662 estimatedTimeRemaining:179.077332
+Nov  3 16:09:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.647244 totalWrittenBytes:1138458624 totalExpectedBytes:3168739662 estimatedTimeRemaining:177.929443
+Nov  3 16:09:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.647244 totalWrittenBytes:1138458624 totalExpectedBytes:3168739662 estimatedTimeRemaining:177.929443
+Nov  3 16:09:55 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.649273 totalWrittenBytes:1150173184 totalExpectedBytes:3168739662 estimatedTimeRemaining:176.177551
+Nov  3 16:09:55 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.649273 totalWrittenBytes:1150173184 totalExpectedBytes:3168739662 estimatedTimeRemaining:176.177551
+Nov  3 16:09:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.650820 totalWrittenBytes:1159102464 totalExpectedBytes:3168739662 estimatedTimeRemaining:175.989655
+Nov  3 16:09:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.650820 totalWrittenBytes:1159102464 totalExpectedBytes:3168739662 estimatedTimeRemaining:175.989655
+Nov  3 16:09:57 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.652836 totalWrittenBytes:1170735104 totalExpectedBytes:3168739662 estimatedTimeRemaining:174.804520
+Nov  3 16:09:57 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.652836 totalWrittenBytes:1170735104 totalExpectedBytes:3168739662 estimatedTimeRemaining:174.804520
+Nov  3 16:09:58 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.654857 totalWrittenBytes:1182400512 totalExpectedBytes:3168739662 estimatedTimeRemaining:173.903412
+Nov  3 16:09:58 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.654857 totalWrittenBytes:1182400512 totalExpectedBytes:3168739662 estimatedTimeRemaining:173.903412
+Nov  3 16:09:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.656889 totalWrittenBytes:1194131456 totalExpectedBytes:3168739662 estimatedTimeRemaining:172.810272
+Nov  3 16:09:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.656889 totalWrittenBytes:1194131456 totalExpectedBytes:3168739662 estimatedTimeRemaining:172.810272
+Nov  3 16:10:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.658922 totalWrittenBytes:1205862400 totalExpectedBytes:3168739662 estimatedTimeRemaining:171.771240
+Nov  3 16:10:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.658922 totalWrittenBytes:1205862400 totalExpectedBytes:3168739662 estimatedTimeRemaining:171.771240
+Nov  3 16:10:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.660920 totalWrittenBytes:1217396736 totalExpectedBytes:3168739662 estimatedTimeRemaining:170.819199
+Nov  3 16:10:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.660920 totalWrittenBytes:1217396736 totalExpectedBytes:3168739662 estimatedTimeRemaining:170.819199
+Nov  3 16:10:02 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.662953 totalWrittenBytes:1229127680 totalExpectedBytes:3168739662 estimatedTimeRemaining:169.775909
+Nov  3 16:10:02 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.662953 totalWrittenBytes:1229127680 totalExpectedBytes:3168739662 estimatedTimeRemaining:169.775909
+Nov  3 16:10:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.664985 totalWrittenBytes:1240858624 totalExpectedBytes:3168739662 estimatedTimeRemaining:168.746750
+Nov  3 16:10:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.664985 totalWrittenBytes:1240858624 totalExpectedBytes:3168739662 estimatedTimeRemaining:168.746750
+Nov  3 16:10:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.667017 totalWrittenBytes:1252589568 totalExpectedBytes:3168739662 estimatedTimeRemaining:167.720795
+Nov  3 16:10:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.667017 totalWrittenBytes:1252589568 totalExpectedBytes:3168739662 estimatedTimeRemaining:167.720795
+Nov  3 16:10:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.669039 totalWrittenBytes:1264254976 totalExpectedBytes:3168739662 estimatedTimeRemaining:166.018860
+Nov  3 16:10:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.669039 totalWrittenBytes:1264254976 totalExpectedBytes:3168739662 estimatedTimeRemaining:166.018860
+Nov  3 16:10:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.671082 totalWrittenBytes:1276051456 totalExpectedBytes:3168739662 estimatedTimeRemaining:164.976105
+Nov  3 16:10:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.671082 totalWrittenBytes:1276051456 totalExpectedBytes:3168739662 estimatedTimeRemaining:164.976105
+Nov  3 16:10:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.672604 totalWrittenBytes:1284833280 totalExpectedBytes:3168739662 estimatedTimeRemaining:164.904434
+Nov  3 16:10:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.672604 totalWrittenBytes:1284833280 totalExpectedBytes:3168739662 estimatedTimeRemaining:164.904434
+Nov  3 16:10:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.674636 totalWrittenBytes:1296564224 totalExpectedBytes:3168739662 estimatedTimeRemaining:163.876358
+Nov  3 16:10:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.674636 totalWrittenBytes:1296564224 totalExpectedBytes:3168739662 estimatedTimeRemaining:163.876358
+Nov  3 16:10:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.676672 totalWrittenBytes:1308311552 totalExpectedBytes:3168739662 estimatedTimeRemaining:162.842712
+Nov  3 16:10:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.676672 totalWrittenBytes:1308311552 totalExpectedBytes:3168739662 estimatedTimeRemaining:162.842712
+Nov  3 16:10:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.678695 totalWrittenBytes:1319993344 totalExpectedBytes:3168739662 estimatedTimeRemaining:161.781540
+Nov  3 16:10:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.678695 totalWrittenBytes:1319993344 totalExpectedBytes:3168739662 estimatedTimeRemaining:161.781540
+Nov  3 16:10:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.680728 totalWrittenBytes:1331724288 totalExpectedBytes:3168739662 estimatedTimeRemaining:160.752686
+Nov  3 16:10:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.680728 totalWrittenBytes:1331724288 totalExpectedBytes:3168739662 estimatedTimeRemaining:160.752686
+Nov  3 16:10:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.682760 totalWrittenBytes:1343455232 totalExpectedBytes:3168739662 estimatedTimeRemaining:159.728439
+Nov  3 16:10:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.682760 totalWrittenBytes:1343455232 totalExpectedBytes:3168739662 estimatedTimeRemaining:159.728439
+Nov  3 16:10:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.684796 totalWrittenBytes:1355202560 totalExpectedBytes:3168739662 estimatedTimeRemaining:158.698624
+Nov  3 16:10:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.684796 totalWrittenBytes:1355202560 totalExpectedBytes:3168739662 estimatedTimeRemaining:158.698624
+Nov  3 16:10:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.686817 totalWrittenBytes:1366867968 totalExpectedBytes:3168739662 estimatedTimeRemaining:157.678787
+Nov  3 16:10:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.686817 totalWrittenBytes:1366867968 totalExpectedBytes:3168739662 estimatedTimeRemaining:157.678787
+Nov  3 16:10:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.688855 totalWrittenBytes:1378631680 totalExpectedBytes:3168739662 estimatedTimeRemaining:155.990326
+Nov  3 16:10:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.688855 totalWrittenBytes:1378631680 totalExpectedBytes:3168739662 estimatedTimeRemaining:155.990326
+Nov  3 16:10:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.690884 totalWrittenBytes:1390346240 totalExpectedBytes:3168739662 estimatedTimeRemaining:154.976013
+Nov  3 16:10:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.690884 totalWrittenBytes:1390346240 totalExpectedBytes:3168739662 estimatedTimeRemaining:154.976013
+Nov  3 16:10:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.692409 totalWrittenBytes:1399144448 totalExpectedBytes:3168739662 estimatedTimeRemaining:154.855042
+Nov  3 16:10:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.692409 totalWrittenBytes:1399144448 totalExpectedBytes:3168739662 estimatedTimeRemaining:154.855042
+Nov  3 16:10:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.694444 totalWrittenBytes:1410891776 totalExpectedBytes:3168739662 estimatedTimeRemaining:153.827301
+Nov  3 16:10:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.694444 totalWrittenBytes:1410891776 totalExpectedBytes:3168739662 estimatedTimeRemaining:153.827301
+Nov  3 16:10:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.696477 totalWrittenBytes:1422622720 totalExpectedBytes:3168739662 estimatedTimeRemaining:152.799866
+Nov  3 16:10:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.696477 totalWrittenBytes:1422622720 totalExpectedBytes:3168739662 estimatedTimeRemaining:152.799866
+Nov  3 16:10:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.698509 totalWrittenBytes:1434353664 totalExpectedBytes:3168739662 estimatedTimeRemaining:151.716187
+Nov  3 16:10:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.698509 totalWrittenBytes:1434353664 totalExpectedBytes:3168739662 estimatedTimeRemaining:151.716187
+Nov  3 16:10:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.700527 totalWrittenBytes:1446002688 totalExpectedBytes:3168739662 estimatedTimeRemaining:150.718781
+Nov  3 16:10:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.700527 totalWrittenBytes:1446002688 totalExpectedBytes:3168739662 estimatedTimeRemaining:150.718781
+Nov  3 16:10:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.702528 totalWrittenBytes:1457553408 totalExpectedBytes:3168739662 estimatedTimeRemaining:149.747543
+Nov  3 16:10:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.702528 totalWrittenBytes:1457553408 totalExpectedBytes:3168739662 estimatedTimeRemaining:149.747543
+Nov  3 16:10:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.704558 totalWrittenBytes:1469267968 totalExpectedBytes:3168739662 estimatedTimeRemaining:148.725922
+Nov  3 16:10:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.704558 totalWrittenBytes:1469267968 totalExpectedBytes:3168739662 estimatedTimeRemaining:148.725922
+Nov  3 16:10:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.706590 totalWrittenBytes:1480998912 totalExpectedBytes:3168739662 estimatedTimeRemaining:147.696945
+Nov  3 16:10:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.706590 totalWrittenBytes:1480998912 totalExpectedBytes:3168739662 estimatedTimeRemaining:147.696945
+Nov  3 16:10:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.708626 totalWrittenBytes:1492746240 totalExpectedBytes:3168739662 estimatedTimeRemaining:146.461136
+Nov  3 16:10:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.708626 totalWrittenBytes:1492746240 totalExpectedBytes:3168739662 estimatedTimeRemaining:146.461136
+Nov  3 16:10:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.710658 totalWrittenBytes:1504477184 totalExpectedBytes:3168739662 estimatedTimeRemaining:145.017303
+Nov  3 16:10:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.710658 totalWrittenBytes:1504477184 totalExpectedBytes:3168739662 estimatedTimeRemaining:145.017303
+Nov  3 16:10:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.712183 totalWrittenBytes:1513275392 totalExpectedBytes:3168739662 estimatedTimeRemaining:144.869781
+Nov  3 16:10:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.712183 totalWrittenBytes:1513275392 totalExpectedBytes:3168739662 estimatedTimeRemaining:144.869781
+Nov  3 16:10:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.714215 totalWrittenBytes:1525006336 totalExpectedBytes:3168739662 estimatedTimeRemaining:143.838104
+Nov  3 16:10:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.714215 totalWrittenBytes:1525006336 totalExpectedBytes:3168739662 estimatedTimeRemaining:143.838104
+Nov  3 16:10:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.716247 totalWrittenBytes:1536737280 totalExpectedBytes:3168739662 estimatedTimeRemaining:142.814682
+Nov  3 16:10:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.716247 totalWrittenBytes:1536737280 totalExpectedBytes:3168739662 estimatedTimeRemaining:142.814682
+Nov  3 16:10:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.718277 totalWrittenBytes:1548451840 totalExpectedBytes:3168739662 estimatedTimeRemaining:141.783188
+Nov  3 16:10:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.718277 totalWrittenBytes:1548451840 totalExpectedBytes:3168739662 estimatedTimeRemaining:141.783188
+Nov  3 16:10:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.720315 totalWrittenBytes:1560215552 totalExpectedBytes:3168739662 estimatedTimeRemaining:140.747025
+Nov  3 16:10:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.720315 totalWrittenBytes:1560215552 totalExpectedBytes:3168739662 estimatedTimeRemaining:140.747025
+Nov  3 16:10:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.722348 totalWrittenBytes:1571946496 totalExpectedBytes:3168739662 estimatedTimeRemaining:139.727249
+Nov  3 16:10:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.722348 totalWrittenBytes:1571946496 totalExpectedBytes:3168739662 estimatedTimeRemaining:139.727249
+Nov  3 16:10:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.724377 totalWrittenBytes:1583661056 totalExpectedBytes:3168739662 estimatedTimeRemaining:138.707794
+Nov  3 16:10:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.724377 totalWrittenBytes:1583661056 totalExpectedBytes:3168739662 estimatedTimeRemaining:138.707794
+Nov  3 16:10:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.726398 totalWrittenBytes:1595326464 totalExpectedBytes:3168739662 estimatedTimeRemaining:137.694656
+Nov  3 16:10:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.726398 totalWrittenBytes:1595326464 totalExpectedBytes:3168739662 estimatedTimeRemaining:137.694656
+Nov  3 16:10:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.728442 totalWrittenBytes:1607122944 totalExpectedBytes:3168739662 estimatedTimeRemaining:136.642715
+Nov  3 16:10:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.728442 totalWrittenBytes:1607122944 totalExpectedBytes:3168739662 estimatedTimeRemaining:136.642715
+Nov  3 16:10:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.730475 totalWrittenBytes:1618853888 totalExpectedBytes:3168739662 estimatedTimeRemaining:135.051468
+Nov  3 16:10:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.730475 totalWrittenBytes:1618853888 totalExpectedBytes:3168739662 estimatedTimeRemaining:135.051468
+Nov  3 16:10:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.732269 totalWrittenBytes:1629208576 totalExpectedBytes:3168739662 estimatedTimeRemaining:134.406189
+Nov  3 16:10:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.732269 totalWrittenBytes:1629208576 totalExpectedBytes:3168739662 estimatedTimeRemaining:134.406189
+Nov  3 16:10:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.734023 totalWrittenBytes:1639333888 totalExpectedBytes:3168739662 estimatedTimeRemaining:133.838303
+Nov  3 16:10:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.734023 totalWrittenBytes:1639333888 totalExpectedBytes:3168739662 estimatedTimeRemaining:133.838303
+Nov  3 16:10:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.736067 totalWrittenBytes:1651130368 totalExpectedBytes:3168739662 estimatedTimeRemaining:132.789062
+Nov  3 16:10:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.736067 totalWrittenBytes:1651130368 totalExpectedBytes:3168739662 estimatedTimeRemaining:132.789062
+Nov  3 16:10:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.738088 totalWrittenBytes:1662795776 totalExpectedBytes:3168739662 estimatedTimeRemaining:131.780884
+Nov  3 16:10:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.738088 totalWrittenBytes:1662795776 totalExpectedBytes:3168739662 estimatedTimeRemaining:131.780884
+Nov  3 16:10:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.740120 totalWrittenBytes:1674526720 totalExpectedBytes:3168739662 estimatedTimeRemaining:130.704453
+Nov  3 16:10:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.740120 totalWrittenBytes:1674526720 totalExpectedBytes:3168739662 estimatedTimeRemaining:130.704453
+Nov  3 16:10:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.742153 totalWrittenBytes:1686257664 totalExpectedBytes:3168739662 estimatedTimeRemaining:129.681335
+Nov  3 16:10:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.742153 totalWrittenBytes:1686257664 totalExpectedBytes:3168739662 estimatedTimeRemaining:129.681335
+Nov  3 16:10:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.744188 totalWrittenBytes:1698004992 totalExpectedBytes:3168739662 estimatedTimeRemaining:128.651901
+Nov  3 16:10:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.744188 totalWrittenBytes:1698004992 totalExpectedBytes:3168739662 estimatedTimeRemaining:128.651901
+Nov  3 16:10:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.746215 totalWrittenBytes:1709703168 totalExpectedBytes:3168739662 estimatedTimeRemaining:127.632774
+Nov  3 16:10:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.746215 totalWrittenBytes:1709703168 totalExpectedBytes:3168739662 estimatedTimeRemaining:127.632774
+Nov  3 16:10:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.748250 totalWrittenBytes:1721450496 totalExpectedBytes:3168739662 estimatedTimeRemaining:126.599831
+Nov  3 16:10:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.748250 totalWrittenBytes:1721450496 totalExpectedBytes:3168739662 estimatedTimeRemaining:126.599831
+Nov  3 16:10:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.750277 totalWrittenBytes:1733148672 totalExpectedBytes:3168739662 estimatedTimeRemaining:125.104378
+Nov  3 16:10:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.750277 totalWrittenBytes:1733148672 totalExpectedBytes:3168739662 estimatedTimeRemaining:125.104378
+Nov  3 16:10:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.752312 totalWrittenBytes:1744896000 totalExpectedBytes:3168739662 estimatedTimeRemaining:124.077728
+Nov  3 16:10:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.752312 totalWrittenBytes:1744896000 totalExpectedBytes:3168739662 estimatedTimeRemaining:124.077728
+Nov  3 16:10:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.753768 totalWrittenBytes:1753300992 totalExpectedBytes:3168739662 estimatedTimeRemaining:123.941048
+Nov  3 16:10:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.753768 totalWrittenBytes:1753300992 totalExpectedBytes:3168739662 estimatedTimeRemaining:123.941048
+Nov  3 16:10:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.755801 totalWrittenBytes:1765031936 totalExpectedBytes:3168739662 estimatedTimeRemaining:122.909500
+Nov  3 16:10:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.755801 totalWrittenBytes:1765031936 totalExpectedBytes:3168739662 estimatedTimeRemaining:122.909500
+Nov  3 16:10:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.757822 totalWrittenBytes:1776697344 totalExpectedBytes:3168739662 estimatedTimeRemaining:121.907043
+Nov  3 16:10:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.757822 totalWrittenBytes:1776697344 totalExpectedBytes:3168739662 estimatedTimeRemaining:121.907043
+Nov  3 16:10:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.759860 totalWrittenBytes:1788461056 totalExpectedBytes:3168739662 estimatedTimeRemaining:120.870560
+Nov  3 16:10:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.759860 totalWrittenBytes:1788461056 totalExpectedBytes:3168739662 estimatedTimeRemaining:120.870560
+Nov  3 16:10:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.761892 totalWrittenBytes:1800192000 totalExpectedBytes:3168739662 estimatedTimeRemaining:119.843613
+Nov  3 16:10:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.761892 totalWrittenBytes:1800192000 totalExpectedBytes:3168739662 estimatedTimeRemaining:119.843613
+Nov  3 16:10:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.763928 totalWrittenBytes:1811939328 totalExpectedBytes:3168739662 estimatedTimeRemaining:118.803642
+Nov  3 16:10:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.763928 totalWrittenBytes:1811939328 totalExpectedBytes:3168739662 estimatedTimeRemaining:118.803642
+Nov  3 16:10:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.765957 totalWrittenBytes:1823653888 totalExpectedBytes:3168739662 estimatedTimeRemaining:117.780739
+Nov  3 16:10:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.765957 totalWrittenBytes:1823653888 totalExpectedBytes:3168739662 estimatedTimeRemaining:117.780739
+Nov  3 16:10:55 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.767995 totalWrittenBytes:1835417600 totalExpectedBytes:3168739662 estimatedTimeRemaining:116.742371
+Nov  3 16:10:55 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.767995 totalWrittenBytes:1835417600 totalExpectedBytes:3168739662 estimatedTimeRemaining:116.742371
+Nov  3 16:10:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.770019 totalWrittenBytes:1847099392 totalExpectedBytes:3168739662 estimatedTimeRemaining:115.256462
+Nov  3 16:10:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.770019 totalWrittenBytes:1847099392 totalExpectedBytes:3168739662 estimatedTimeRemaining:115.256462
+Nov  3 16:10:57 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.772046 totalWrittenBytes:1858797568 totalExpectedBytes:3168739662 estimatedTimeRemaining:114.224113
+Nov  3 16:10:57 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.772046 totalWrittenBytes:1858797568 totalExpectedBytes:3168739662 estimatedTimeRemaining:114.224113
+Nov  3 16:10:58 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.773565 totalWrittenBytes:1867563008 totalExpectedBytes:3168739662 estimatedTimeRemaining:113.941040
+Nov  3 16:10:58 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.773565 totalWrittenBytes:1867563008 totalExpectedBytes:3168739662 estimatedTimeRemaining:113.941040
+Nov  3 16:10:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.775597 totalWrittenBytes:1879293952 totalExpectedBytes:3168739662 estimatedTimeRemaining:112.913834
+Nov  3 16:10:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.775597 totalWrittenBytes:1879293952 totalExpectedBytes:3168739662 estimatedTimeRemaining:112.913834
+Nov  3 16:11:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.777627 totalWrittenBytes:1891008512 totalExpectedBytes:3168739662 estimatedTimeRemaining:111.889961
+Nov  3 16:11:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.777627 totalWrittenBytes:1891008512 totalExpectedBytes:3168739662 estimatedTimeRemaining:111.889961
+Nov  3 16:11:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.779659 totalWrittenBytes:1902739456 totalExpectedBytes:3168739662 estimatedTimeRemaining:110.831505
+Nov  3 16:11:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.779659 totalWrittenBytes:1902739456 totalExpectedBytes:3168739662 estimatedTimeRemaining:110.831505
+Nov  3 16:11:02 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.781692 totalWrittenBytes:1914470400 totalExpectedBytes:3168739662 estimatedTimeRemaining:109.804535
+Nov  3 16:11:02 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.781692 totalWrittenBytes:1914470400 totalExpectedBytes:3168739662 estimatedTimeRemaining:109.804535
+Nov  3 16:11:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.783724 totalWrittenBytes:1926201344 totalExpectedBytes:3168739662 estimatedTimeRemaining:108.779137
+Nov  3 16:11:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.783724 totalWrittenBytes:1926201344 totalExpectedBytes:3168739662 estimatedTimeRemaining:108.779137
+Nov  3 16:11:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.785757 totalWrittenBytes:1937932288 totalExpectedBytes:3168739662 estimatedTimeRemaining:107.752151
+Nov  3 16:11:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.785757 totalWrittenBytes:1937932288 totalExpectedBytes:3168739662 estimatedTimeRemaining:107.752151
+Nov  3 16:11:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.787792 totalWrittenBytes:1949679616 totalExpectedBytes:3168739662 estimatedTimeRemaining:106.709496
+Nov  3 16:11:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.787792 totalWrittenBytes:1949679616 totalExpectedBytes:3168739662 estimatedTimeRemaining:106.709496
+Nov  3 16:11:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.789816 totalWrittenBytes:1961361408 totalExpectedBytes:3168739662 estimatedTimeRemaining:105.704559
+Nov  3 16:11:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.789816 totalWrittenBytes:1961361408 totalExpectedBytes:3168739662 estimatedTimeRemaining:105.704559
+Nov  3 16:11:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.791837 totalWrittenBytes:1973026816 totalExpectedBytes:3168739662 estimatedTimeRemaining:104.245293
+Nov  3 16:11:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.791837 totalWrittenBytes:1973026816 totalExpectedBytes:3168739662 estimatedTimeRemaining:104.245293
+Nov  3 16:11:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.793364 totalWrittenBytes:1981841408 totalExpectedBytes:3168739662 estimatedTimeRemaining:103.916313
+Nov  3 16:11:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.793364 totalWrittenBytes:1981841408 totalExpectedBytes:3168739662 estimatedTimeRemaining:103.916313
+Nov  3 16:11:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.795050 totalWrittenBytes:1991573504 totalExpectedBytes:3168739662 estimatedTimeRemaining:103.367477
+Nov  3 16:11:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.795050 totalWrittenBytes:1991573504 totalExpectedBytes:3168739662 estimatedTimeRemaining:103.367477
+Nov  3 16:11:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.797083 totalWrittenBytes:2003304448 totalExpectedBytes:3168739662 estimatedTimeRemaining:102.330902
+Nov  3 16:11:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.797083 totalWrittenBytes:2003304448 totalExpectedBytes:3168739662 estimatedTimeRemaining:102.330902
+Nov  3 16:11:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.799115 totalWrittenBytes:2015035392 totalExpectedBytes:3168739662 estimatedTimeRemaining:101.302429
+Nov  3 16:11:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.799115 totalWrittenBytes:2015035392 totalExpectedBytes:3168739662 estimatedTimeRemaining:101.302429
+Nov  3 16:11:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.801145 totalWrittenBytes:2026749952 totalExpectedBytes:3168739662 estimatedTimeRemaining:100.274727
+Nov  3 16:11:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.801145 totalWrittenBytes:2026749952 totalExpectedBytes:3168739662 estimatedTimeRemaining:100.274727
+Nov  3 16:11:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.803183 totalWrittenBytes:2038513664 totalExpectedBytes:3168739662 estimatedTimeRemaining:99.238167
+Nov  3 16:11:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.803183 totalWrittenBytes:2038513664 totalExpectedBytes:3168739662 estimatedTimeRemaining:99.238167
+Nov  3 16:11:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.805215 totalWrittenBytes:2050244608 totalExpectedBytes:3168739662 estimatedTimeRemaining:98.200539
+Nov  3 16:11:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.805215 totalWrittenBytes:2050244608 totalExpectedBytes:3168739662 estimatedTimeRemaining:98.200539
+Nov  3 16:11:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.807245 totalWrittenBytes:2061959168 totalExpectedBytes:3168739662 estimatedTimeRemaining:97.178535
+Nov  3 16:11:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.807245 totalWrittenBytes:2061959168 totalExpectedBytes:3168739662 estimatedTimeRemaining:97.178535
+Nov  3 16:11:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.809198 totalWrittenBytes:2073231360 totalExpectedBytes:3168739662 estimatedTimeRemaining:96.251060
+Nov  3 16:11:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.809198 totalWrittenBytes:2073231360 totalExpectedBytes:3168739662 estimatedTimeRemaining:96.251060
+Nov  3 16:11:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.811281 totalWrittenBytes:2085257216 totalExpectedBytes:3168739662 estimatedTimeRemaining:94.746620
+Nov  3 16:11:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.811281 totalWrittenBytes:2085257216 totalExpectedBytes:3168739662 estimatedTimeRemaining:94.746620
+Nov  3 16:11:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.813226 totalWrittenBytes:2096480256 totalExpectedBytes:3168739662 estimatedTimeRemaining:93.836922
+Nov  3 16:11:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.813226 totalWrittenBytes:2096480256 totalExpectedBytes:3168739662 estimatedTimeRemaining:93.836922
+Nov  3 16:11:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.814852 totalWrittenBytes:2105868288 totalExpectedBytes:3168739662 estimatedTimeRemaining:93.333672
+Nov  3 16:11:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.814852 totalWrittenBytes:2105868288 totalExpectedBytes:3168739662 estimatedTimeRemaining:93.333672
+Nov  3 16:11:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.816873 totalWrittenBytes:2117533696 totalExpectedBytes:3168739662 estimatedTimeRemaining:92.318733
+Nov  3 16:11:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.816873 totalWrittenBytes:2117533696 totalExpectedBytes:3168739662 estimatedTimeRemaining:92.318733
+Nov  3 16:11:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.818911 totalWrittenBytes:2129297408 totalExpectedBytes:3168739662 estimatedTimeRemaining:91.270279
+Nov  3 16:11:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.818911 totalWrittenBytes:2129297408 totalExpectedBytes:3168739662 estimatedTimeRemaining:91.270279
+Nov  3 16:11:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.820944 totalWrittenBytes:2141028352 totalExpectedBytes:3168739662 estimatedTimeRemaining:90.216530
+Nov  3 16:11:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.820944 totalWrittenBytes:2141028352 totalExpectedBytes:3168739662 estimatedTimeRemaining:90.216530
+Nov  3 16:11:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.822968 totalWrittenBytes:2152710144 totalExpectedBytes:3168739662 estimatedTimeRemaining:89.195221
+Nov  3 16:11:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.822968 totalWrittenBytes:2152710144 totalExpectedBytes:3168739662 estimatedTimeRemaining:89.195221
+Nov  3 16:11:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.825000 totalWrittenBytes:2164441088 totalExpectedBytes:3168739662 estimatedTimeRemaining:88.166100
+Nov  3 16:11:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.825000 totalWrittenBytes:2164441088 totalExpectedBytes:3168739662 estimatedTimeRemaining:88.166100
+Nov  3 16:11:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.827030 totalWrittenBytes:2176155648 totalExpectedBytes:3168739662 estimatedTimeRemaining:87.141235
+Nov  3 16:11:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.827030 totalWrittenBytes:2176155648 totalExpectedBytes:3168739662 estimatedTimeRemaining:87.141235
+Nov  3 16:11:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.829065 totalWrittenBytes:2187902976 totalExpectedBytes:3168739662 estimatedTimeRemaining:86.107864
+Nov  3 16:11:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.829065 totalWrittenBytes:2187902976 totalExpectedBytes:3168739662 estimatedTimeRemaining:86.107864
+Nov  3 16:11:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.831095 totalWrittenBytes:2199617536 totalExpectedBytes:3168739662 estimatedTimeRemaining:84.718742
+Nov  3 16:11:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.831095 totalWrittenBytes:2199617536 totalExpectedBytes:3168739662 estimatedTimeRemaining:84.718742
+Nov  3 16:11:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.833127 totalWrittenBytes:2211348480 totalExpectedBytes:3168739662 estimatedTimeRemaining:83.691704
+Nov  3 16:11:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.833127 totalWrittenBytes:2211348480 totalExpectedBytes:3168739662 estimatedTimeRemaining:83.691704
+Nov  3 16:11:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.834663 totalWrittenBytes:2220212224 totalExpectedBytes:3168739662 estimatedTimeRemaining:83.265282
+Nov  3 16:11:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.834663 totalWrittenBytes:2220212224 totalExpectedBytes:3168739662 estimatedTimeRemaining:83.265282
+Nov  3 16:11:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.836698 totalWrittenBytes:2231959552 totalExpectedBytes:3168739662 estimatedTimeRemaining:82.229858
+Nov  3 16:11:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.836698 totalWrittenBytes:2231959552 totalExpectedBytes:3168739662 estimatedTimeRemaining:82.229858
+Nov  3 16:11:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.838577 totalWrittenBytes:2242805760 totalExpectedBytes:3168739662 estimatedTimeRemaining:81.387024
+Nov  3 16:11:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.838577 totalWrittenBytes:2242805760 totalExpectedBytes:3168739662 estimatedTimeRemaining:81.387024
+Nov  3 16:11:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.840627 totalWrittenBytes:2254635008 totalExpectedBytes:3168739662 estimatedTimeRemaining:80.335823
+Nov  3 16:11:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.840627 totalWrittenBytes:2254635008 totalExpectedBytes:3168739662 estimatedTimeRemaining:80.335823
+Nov  3 16:11:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.842580 totalWrittenBytes:2265907200 totalExpectedBytes:3168739662 estimatedTimeRemaining:79.396584
+Nov  3 16:11:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.842580 totalWrittenBytes:2265907200 totalExpectedBytes:3168739662 estimatedTimeRemaining:79.396584
+Nov  3 16:11:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.844649 totalWrittenBytes:2277851136 totalExpectedBytes:3168739662 estimatedTimeRemaining:78.314163
+Nov  3 16:11:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.844649 totalWrittenBytes:2277851136 totalExpectedBytes:3168739662 estimatedTimeRemaining:78.314163
+Nov  3 16:11:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.846648 totalWrittenBytes:2289385472 totalExpectedBytes:3168739662 estimatedTimeRemaining:77.329910
+Nov  3 16:11:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.846648 totalWrittenBytes:2289385472 totalExpectedBytes:3168739662 estimatedTimeRemaining:77.329910
+Nov  3 16:11:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.848629 totalWrittenBytes:2300821504 totalExpectedBytes:3168739662 estimatedTimeRemaining:76.357300
+Nov  3 16:11:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.848629 totalWrittenBytes:2300821504 totalExpectedBytes:3168739662 estimatedTimeRemaining:76.357300
+Nov  3 16:11:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.850610 totalWrittenBytes:2312257536 totalExpectedBytes:3168739662 estimatedTimeRemaining:75.231789
+Nov  3 16:11:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.850610 totalWrittenBytes:2312257536 totalExpectedBytes:3168739662 estimatedTimeRemaining:75.231789
+Nov  3 16:11:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.852643 totalWrittenBytes:2323988480 totalExpectedBytes:3168739662 estimatedTimeRemaining:74.028435
+Nov  3 16:11:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.852643 totalWrittenBytes:2323988480 totalExpectedBytes:3168739662 estimatedTimeRemaining:74.028435
+Nov  3 16:11:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.854181 totalWrittenBytes:2332868608 totalExpectedBytes:3168739662 estimatedTimeRemaining:73.562347
+Nov  3 16:11:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.854181 totalWrittenBytes:2332868608 totalExpectedBytes:3168739662 estimatedTimeRemaining:73.562347
+Nov  3 16:11:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.856052 totalWrittenBytes:2343665664 totalExpectedBytes:3168739662 estimatedTimeRemaining:72.704788
+Nov  3 16:11:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.856052 totalWrittenBytes:2343665664 totalExpectedBytes:3168739662 estimatedTimeRemaining:72.704788
+Nov  3 16:11:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.858064 totalWrittenBytes:2355281920 totalExpectedBytes:3168739662 estimatedTimeRemaining:71.693260
+Nov  3 16:11:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.858064 totalWrittenBytes:2355281920 totalExpectedBytes:3168739662 estimatedTimeRemaining:71.693260
+Nov  3 16:11:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.860051 totalWrittenBytes:2366750720 totalExpectedBytes:3168739662 estimatedTimeRemaining:70.709740
+Nov  3 16:11:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.860051 totalWrittenBytes:2366750720 totalExpectedBytes:3168739662 estimatedTimeRemaining:70.709740
+Nov  3 16:11:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.862047 totalWrittenBytes:2378268672 totalExpectedBytes:3168739662 estimatedTimeRemaining:69.717049
+Nov  3 16:11:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.862047 totalWrittenBytes:2378268672 totalExpectedBytes:3168739662 estimatedTimeRemaining:69.717049
+Nov  3 16:11:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.864043 totalWrittenBytes:2389786624 totalExpectedBytes:3168739662 estimatedTimeRemaining:68.720383
+Nov  3 16:11:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.864043 totalWrittenBytes:2389786624 totalExpectedBytes:3168739662 estimatedTimeRemaining:68.720383
+Nov  3 16:11:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.866032 totalWrittenBytes:2401271808 totalExpectedBytes:3168739662 estimatedTimeRemaining:67.732903
+Nov  3 16:11:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.866032 totalWrittenBytes:2401271808 totalExpectedBytes:3168739662 estimatedTimeRemaining:67.732903
+Nov  3 16:11:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.868002 totalWrittenBytes:2412642304 totalExpectedBytes:3168739662 estimatedTimeRemaining:66.761566
+Nov  3 16:11:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.868002 totalWrittenBytes:2412642304 totalExpectedBytes:3168739662 estimatedTimeRemaining:66.761566
+Nov  3 16:11:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.869989 totalWrittenBytes:2424111104 totalExpectedBytes:3168739662 estimatedTimeRemaining:65.775894
+Nov  3 16:11:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.869989 totalWrittenBytes:2424111104 totalExpectedBytes:3168739662 estimatedTimeRemaining:65.775894
+Nov  3 16:11:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.872025 totalWrittenBytes:2435858432 totalExpectedBytes:3168739662 estimatedTimeRemaining:64.421165
+Nov  3 16:11:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.872025 totalWrittenBytes:2435858432 totalExpectedBytes:3168739662 estimatedTimeRemaining:64.421165
+Nov  3 16:11:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.874046 totalWrittenBytes:2447523840 totalExpectedBytes:3168739662 estimatedTimeRemaining:63.402630
+Nov  3 16:11:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.874046 totalWrittenBytes:2447523840 totalExpectedBytes:3168739662 estimatedTimeRemaining:63.402630
+Nov  3 16:11:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.875579 totalWrittenBytes:2456371200 totalExpectedBytes:3168739662 estimatedTimeRemaining:62.883728
+Nov  3 16:11:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.875579 totalWrittenBytes:2456371200 totalExpectedBytes:3168739662 estimatedTimeRemaining:62.883728
+Nov  3 16:11:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.877580 totalWrittenBytes:2467921920 totalExpectedBytes:3168739662 estimatedTimeRemaining:61.883743
+Nov  3 16:11:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.877580 totalWrittenBytes:2467921920 totalExpectedBytes:3168739662 estimatedTimeRemaining:61.883743
+Nov  3 16:11:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.879578 totalWrittenBytes:2479456256 totalExpectedBytes:3168739662 estimatedTimeRemaining:60.882652
+Nov  3 16:11:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.879578 totalWrittenBytes:2479456256 totalExpectedBytes:3168739662 estimatedTimeRemaining:60.882652
+Nov  3 16:11:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.881585 totalWrittenBytes:2491039744 totalExpectedBytes:3168739662 estimatedTimeRemaining:59.873959
+Nov  3 16:11:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.881585 totalWrittenBytes:2491039744 totalExpectedBytes:3168739662 estimatedTimeRemaining:59.873959
+Nov  3 16:11:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.883569 totalWrittenBytes:2502492160 totalExpectedBytes:3168739662 estimatedTimeRemaining:58.885880
+Nov  3 16:11:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.883569 totalWrittenBytes:2502492160 totalExpectedBytes:3168739662 estimatedTimeRemaining:58.885880
+Nov  3 16:11:55 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.885468 totalWrittenBytes:2513453056 totalExpectedBytes:3168739662 estimatedTimeRemaining:57.988178
+Nov  3 16:11:55 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.885468 totalWrittenBytes:2513453056 totalExpectedBytes:3168739662 estimatedTimeRemaining:57.988178
+Nov  3 16:11:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.887410 totalWrittenBytes:2524660639 totalExpectedBytes:3168739662 estimatedTimeRemaining:57.036789
+Nov  3 16:11:56 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.887410 totalWrittenBytes:2524660639 totalExpectedBytes:3168739662 estimatedTimeRemaining:57.036789
+Nov  3 16:11:57 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.889525 totalWrittenBytes:2536865792 totalExpectedBytes:3168739662 estimatedTimeRemaining:55.914734
+Nov  3 16:11:57 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.889525 totalWrittenBytes:2536865792 totalExpectedBytes:3168739662 estimatedTimeRemaining:55.914734
+Nov  3 16:11:58 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.891551 totalWrittenBytes:2548563968 totalExpectedBytes:3168739662 estimatedTimeRemaining:54.642738
+Nov  3 16:11:58 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.891551 totalWrittenBytes:2548563968 totalExpectedBytes:3168739662 estimatedTimeRemaining:54.642738
+Nov  3 16:11:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.893584 totalWrittenBytes:2560294912 totalExpectedBytes:3168739662 estimatedTimeRemaining:53.608646
+Nov  3 16:11:59 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.893584 totalWrittenBytes:2560294912 totalExpectedBytes:3168739662 estimatedTimeRemaining:53.608646
+Nov  3 16:12:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.895247 totalWrittenBytes:2569895936 totalExpectedBytes:3168739662 estimatedTimeRemaining:52.927773
+Nov  3 16:12:00 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.895247 totalWrittenBytes:2569895936 totalExpectedBytes:3168739662 estimatedTimeRemaining:52.927773
+Nov  3 16:12:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.896996 totalWrittenBytes:2579988480 totalExpectedBytes:3168739662 estimatedTimeRemaining:52.161331
+Nov  3 16:12:01 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.896996 totalWrittenBytes:2579988480 totalExpectedBytes:3168739662 estimatedTimeRemaining:52.161331
+Nov  3 16:12:02 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.899023 totalWrittenBytes:2591686656 totalExpectedBytes:3168739662 estimatedTimeRemaining:51.127407
+Nov  3 16:12:02 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.899023 totalWrittenBytes:2591686656 totalExpectedBytes:3168739662 estimatedTimeRemaining:51.127407
+Nov  3 16:12:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.901052 totalWrittenBytes:2603401216 totalExpectedBytes:3168739662 estimatedTimeRemaining:50.090694
+Nov  3 16:12:03 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.901052 totalWrittenBytes:2603401216 totalExpectedBytes:3168739662 estimatedTimeRemaining:50.090694
+Nov  3 16:12:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.903085 totalWrittenBytes:2615132160 totalExpectedBytes:3168739662 estimatedTimeRemaining:49.051289
+Nov  3 16:12:04 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.903085 totalWrittenBytes:2615132160 totalExpectedBytes:3168739662 estimatedTimeRemaining:49.051289
+Nov  3 16:12:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.905114 totalWrittenBytes:2626846720 totalExpectedBytes:3168739662 estimatedTimeRemaining:48.015682
+Nov  3 16:12:05 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.905114 totalWrittenBytes:2626846720 totalExpectedBytes:3168739662 estimatedTimeRemaining:48.015682
+Nov  3 16:12:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.907150 totalWrittenBytes:2638594048 totalExpectedBytes:3168739662 estimatedTimeRemaining:46.970257
+Nov  3 16:12:06 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.907150 totalWrittenBytes:2638594048 totalExpectedBytes:3168739662 estimatedTimeRemaining:46.970257
+Nov  3 16:12:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.909188 totalWrittenBytes:2650357760 totalExpectedBytes:3168739662 estimatedTimeRemaining:45.921310
+Nov  3 16:12:07 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.909188 totalWrittenBytes:2650357760 totalExpectedBytes:3168739662 estimatedTimeRemaining:45.921310
+Nov  3 16:12:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.911212 totalWrittenBytes:2662039552 totalExpectedBytes:3168739662 estimatedTimeRemaining:44.697262
+Nov  3 16:12:08 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.911212 totalWrittenBytes:2662039552 totalExpectedBytes:3168739662 estimatedTimeRemaining:44.697262
+Nov  3 16:12:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.913247 totalWrittenBytes:2673786880 totalExpectedBytes:3168739662 estimatedTimeRemaining:43.532352
+Nov  3 16:12:09 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.913247 totalWrittenBytes:2673786880 totalExpectedBytes:3168739662 estimatedTimeRemaining:43.532352
+Nov  3 16:12:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.915282 totalWrittenBytes:2685534208 totalExpectedBytes:3168739662 estimatedTimeRemaining:42.497791
+Nov  3 16:12:10 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.915282 totalWrittenBytes:2685534208 totalExpectedBytes:3168739662 estimatedTimeRemaining:42.497791
+Nov  3 16:12:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.916954 totalWrittenBytes:2695184384 totalExpectedBytes:3168739662 estimatedTimeRemaining:41.776474
+Nov  3 16:12:11 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.916954 totalWrittenBytes:2695184384 totalExpectedBytes:3168739662 estimatedTimeRemaining:41.776474
+Nov  3 16:12:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.918813 totalWrittenBytes:2705915904 totalExpectedBytes:3168739662 estimatedTimeRemaining:40.888840
+Nov  3 16:12:12 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.918813 totalWrittenBytes:2705915904 totalExpectedBytes:3168739662 estimatedTimeRemaining:40.888840
+Nov  3 16:12:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.920764 totalWrittenBytes:2717171712 totalExpectedBytes:3168739662 estimatedTimeRemaining:39.924007
+Nov  3 16:12:13 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.920764 totalWrittenBytes:2717171712 totalExpectedBytes:3168739662 estimatedTimeRemaining:39.924007
+Nov  3 16:12:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.922822 totalWrittenBytes:2729050112 totalExpectedBytes:3168739662 estimatedTimeRemaining:38.865685
+Nov  3 16:12:14 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.922822 totalWrittenBytes:2729050112 totalExpectedBytes:3168739662 estimatedTimeRemaining:38.865685
+Nov  3 16:12:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.924758 totalWrittenBytes:2740224000 totalExpectedBytes:3168739662 estimatedTimeRemaining:37.908184
+Nov  3 16:12:15 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.924758 totalWrittenBytes:2740224000 totalExpectedBytes:3168739662 estimatedTimeRemaining:37.908184
+Nov  3 16:12:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.926762 totalWrittenBytes:2751791104 totalExpectedBytes:3168739662 estimatedTimeRemaining:36.868900
+Nov  3 16:12:16 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.926762 totalWrittenBytes:2751791104 totalExpectedBytes:3168739662 estimatedTimeRemaining:36.868900
+Nov  3 16:12:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.928805 totalWrittenBytes:2763587584 totalExpectedBytes:3168739662 estimatedTimeRemaining:35.837887
+Nov  3 16:12:17 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.928805 totalWrittenBytes:2763587584 totalExpectedBytes:3168739662 estimatedTimeRemaining:35.837887
+Nov  3 16:12:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.930727 totalWrittenBytes:2774679552 totalExpectedBytes:3168739662 estimatedTimeRemaining:34.863194
+Nov  3 16:12:18 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.930727 totalWrittenBytes:2774679552 totalExpectedBytes:3168739662 estimatedTimeRemaining:34.863194
+Nov  3 16:12:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.932777 totalWrittenBytes:2786508800 totalExpectedBytes:3168739662 estimatedTimeRemaining:33.695351
+Nov  3 16:12:19 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.932777 totalWrittenBytes:2786508800 totalExpectedBytes:3168739662 estimatedTimeRemaining:33.695351
+Nov  3 16:12:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.934744 totalWrittenBytes:2797862912 totalExpectedBytes:3168739662 estimatedTimeRemaining:32.709686
+Nov  3 16:12:20 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.934744 totalWrittenBytes:2797862912 totalExpectedBytes:3168739662 estimatedTimeRemaining:32.709686
+Nov  3 16:12:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.936839 totalWrittenBytes:2809954304 totalExpectedBytes:3168739662 estimatedTimeRemaining:31.628054
+Nov  3 16:12:21 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.936839 totalWrittenBytes:2809954304 totalExpectedBytes:3168739662 estimatedTimeRemaining:31.628054
+Nov  3 16:12:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.938374 totalWrittenBytes:2818818048 totalExpectedBytes:3168739662 estimatedTimeRemaining:30.977146
+Nov  3 16:12:22 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.938374 totalWrittenBytes:2818818048 totalExpectedBytes:3168739662 estimatedTimeRemaining:30.977146
+Nov  3 16:12:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.940407 totalWrittenBytes:2830548992 totalExpectedBytes:3168739662 estimatedTimeRemaining:29.936543
+Nov  3 16:12:23 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.940407 totalWrittenBytes:2830548992 totalExpectedBytes:3168739662 estimatedTimeRemaining:29.936543
+Nov  3 16:12:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.942434 totalWrittenBytes:2842247168 totalExpectedBytes:3168739662 estimatedTimeRemaining:28.902643
+Nov  3 16:12:24 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.942434 totalWrittenBytes:2842247168 totalExpectedBytes:3168739662 estimatedTimeRemaining:28.902643
+Nov  3 16:12:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.944466 totalWrittenBytes:2853978112 totalExpectedBytes:3168739662 estimatedTimeRemaining:27.863266
+Nov  3 16:12:25 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.944466 totalWrittenBytes:2853978112 totalExpectedBytes:3168739662 estimatedTimeRemaining:27.863266
+Nov  3 16:12:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.946493 totalWrittenBytes:2865676288 totalExpectedBytes:3168739662 estimatedTimeRemaining:26.829670
+Nov  3 16:12:26 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.946493 totalWrittenBytes:2865676288 totalExpectedBytes:3168739662 estimatedTimeRemaining:26.829670
+Nov  3 16:12:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.948528 totalWrittenBytes:2877423616 totalExpectedBytes:3168739662 estimatedTimeRemaining:25.788462
+Nov  3 16:12:27 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.948528 totalWrittenBytes:2877423616 totalExpectedBytes:3168739662 estimatedTimeRemaining:25.788462
+Nov  3 16:12:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.950552 totalWrittenBytes:2889105408 totalExpectedBytes:3168739662 estimatedTimeRemaining:24.756075
+Nov  3 16:12:28 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.950552 totalWrittenBytes:2889105408 totalExpectedBytes:3168739662 estimatedTimeRemaining:24.756075
+Nov  3 16:12:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.952576 totalWrittenBytes:2900787200 totalExpectedBytes:3168739662 estimatedTimeRemaining:23.621630
+Nov  3 16:12:29 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.952576 totalWrittenBytes:2900787200 totalExpectedBytes:3168739662 estimatedTimeRemaining:23.621630
+Nov  3 16:12:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.954603 totalWrittenBytes:2912485376 totalExpectedBytes:3168739662 estimatedTimeRemaining:22.592001
+Nov  3 16:12:30 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.954603 totalWrittenBytes:2912485376 totalExpectedBytes:3168739662 estimatedTimeRemaining:22.592001
+Nov  3 16:12:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.956638 totalWrittenBytes:2924232704 totalExpectedBytes:3168739662 estimatedTimeRemaining:21.527872
+Nov  3 16:12:31 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.956638 totalWrittenBytes:2924232704 totalExpectedBytes:3168739662 estimatedTimeRemaining:21.527872
+Nov  3 16:12:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.958165 totalWrittenBytes:2933047296 totalExpectedBytes:3168739662 estimatedTimeRemaining:20.843979
+Nov  3 16:12:32 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.958165 totalWrittenBytes:2933047296 totalExpectedBytes:3168739662 estimatedTimeRemaining:20.843979
+Nov  3 16:12:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.960198 totalWrittenBytes:2944778240 totalExpectedBytes:3168739662 estimatedTimeRemaining:19.793140
+Nov  3 16:12:33 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.960198 totalWrittenBytes:2944778240 totalExpectedBytes:3168739662 estimatedTimeRemaining:19.793140
+Nov  3 16:12:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.962233 totalWrittenBytes:2956525568 totalExpectedBytes:3168739662 estimatedTimeRemaining:18.760395
+Nov  3 16:12:34 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.962233 totalWrittenBytes:2956525568 totalExpectedBytes:3168739662 estimatedTimeRemaining:18.760395
+Nov  3 16:12:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.964268 totalWrittenBytes:2968272896 totalExpectedBytes:3168739662 estimatedTimeRemaining:17.716341
+Nov  3 16:12:35 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.964268 totalWrittenBytes:2968272896 totalExpectedBytes:3168739662 estimatedTimeRemaining:17.716341
+Nov  3 16:12:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.966289 totalWrittenBytes:2979938304 totalExpectedBytes:3168739662 estimatedTimeRemaining:16.679768
+Nov  3 16:12:36 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.966289 totalWrittenBytes:2979938304 totalExpectedBytes:3168739662 estimatedTimeRemaining:16.679768
+Nov  3 16:12:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.968242 totalWrittenBytes:2991210496 totalExpectedBytes:3168739662 estimatedTimeRemaining:15.687709
+Nov  3 16:12:37 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.968242 totalWrittenBytes:2991210496 totalExpectedBytes:3168739662 estimatedTimeRemaining:15.687709
+Nov  3 16:12:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.970275 totalWrittenBytes:3002941440 totalExpectedBytes:3168739662 estimatedTimeRemaining:14.651087
+Nov  3 16:12:38 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.970275 totalWrittenBytes:3002941440 totalExpectedBytes:3168739662 estimatedTimeRemaining:14.651087
+Nov  3 16:12:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.972307 totalWrittenBytes:3014672384 totalExpectedBytes:3168739662 estimatedTimeRemaining:13.557547
+Nov  3 16:12:39 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.972307 totalWrittenBytes:3014672384 totalExpectedBytes:3168739662 estimatedTimeRemaining:13.557547
+Nov  3 16:12:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.974331 totalWrittenBytes:3026354176 totalExpectedBytes:3168739662 estimatedTimeRemaining:12.513334
+Nov  3 16:12:40 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.974331 totalWrittenBytes:3026354176 totalExpectedBytes:3168739662 estimatedTimeRemaining:12.513334
+Nov  3 16:12:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.976364 totalWrittenBytes:3038085120 totalExpectedBytes:3168739662 estimatedTimeRemaining:11.480448
+Nov  3 16:12:41 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.976364 totalWrittenBytes:3038085120 totalExpectedBytes:3168739662 estimatedTimeRemaining:11.480448
+Nov  3 16:12:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.978402 totalWrittenBytes:3049848832 totalExpectedBytes:3168739662 estimatedTimeRemaining:10.442277
+Nov  3 16:12:42 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.978402 totalWrittenBytes:3049848832 totalExpectedBytes:3168739662 estimatedTimeRemaining:10.442277
+Nov  3 16:12:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.980420 totalWrittenBytes:3061497856 totalExpectedBytes:3168739662 estimatedTimeRemaining:9.417331
+Nov  3 16:12:43 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.980420 totalWrittenBytes:3061497856 totalExpectedBytes:3168739662 estimatedTimeRemaining:9.417331
+Nov  3 16:12:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.982415 totalWrittenBytes:3073015808 totalExpectedBytes:3168739662 estimatedTimeRemaining:8.405911
+Nov  3 16:12:44 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.982415 totalWrittenBytes:3073015808 totalExpectedBytes:3168739662 estimatedTimeRemaining:8.405911
+Nov  3 16:12:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.984405 totalWrittenBytes:3084500992 totalExpectedBytes:3168739662 estimatedTimeRemaining:7.397335
+Nov  3 16:12:45 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.984405 totalWrittenBytes:3084500992 totalExpectedBytes:3168739662 estimatedTimeRemaining:7.397335
+Nov  3 16:12:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.986398 totalWrittenBytes:3096002560 totalExpectedBytes:3168739662 estimatedTimeRemaining:6.386120
+Nov  3 16:12:46 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.986398 totalWrittenBytes:3096002560 totalExpectedBytes:3168739662 estimatedTimeRemaining:6.386120
+Nov  3 16:12:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.987959 totalWrittenBytes:3105013760 totalExpectedBytes:3168739662 estimatedTimeRemaining:5.615150
+Nov  3 16:12:47 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.987959 totalWrittenBytes:3105013760 totalExpectedBytes:3168739662 estimatedTimeRemaining:5.615150
+Nov  3 16:12:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.989946 totalWrittenBytes:3116482560 totalExpectedBytes:3168739662 estimatedTimeRemaining:4.606479
+Nov  3 16:12:48 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.989946 totalWrittenBytes:3116482560 totalExpectedBytes:3168739662 estimatedTimeRemaining:4.606479
+Nov  3 16:12:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.991922 totalWrittenBytes:3127885824 totalExpectedBytes:3168739662 estimatedTimeRemaining:3.602659
+Nov  3 16:12:49 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.991922 totalWrittenBytes:3127885824 totalExpectedBytes:3168739662 estimatedTimeRemaining:3.602659
+Nov  3 16:12:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.993912 totalWrittenBytes:3139371008 totalExpectedBytes:3168739662 estimatedTimeRemaining:2.579847
+Nov  3 16:12:50 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.993912 totalWrittenBytes:3139371008 totalExpectedBytes:3168739662 estimatedTimeRemaining:2.579847
+Nov  3 16:12:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.995936 totalWrittenBytes:3151052800 totalExpectedBytes:3168739662 estimatedTimeRemaining:1.553379
+Nov  3 16:12:51 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.995936 totalWrittenBytes:3151052800 totalExpectedBytes:3168739662 estimatedTimeRemaining:1.553379
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.997968 totalWrittenBytes:3162783744 totalExpectedBytes:3168739662 estimatedTimeRemaining:0.522938
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.997968 totalWrittenBytes:3162783744 totalExpectedBytes:3168739662 estimatedTimeRemaining:0.522938
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:DOWNLOADING_SFR stalled:NO portionComplete:0.999000 estimatedTimeRemaining:-1.000000
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:COMPLETED stalled:NO portionComplete:1.000000 estimatedTimeRemaining:-1.000000
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Cloning /System/Volumes/Update/MobileAsset/AssetsV2/com_apple_MobileAsset_MobileSoftwareUpdate_MacUpdateBrain/9de19bd36910dbe3faf7af8d11741b690a451d60.asset/AssetData -> /tmp/UpdateBrain-GPWcC4NT
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Cloning /System/Library/AssetsV2/com_apple_MobileAsset_SFRSoftwareUpdate/3862ea3dec7fc1901ff5ac1080cc9e80a6a218d2.asset/AssetData -> /var/folders/z2/_r6f9svj6tx266zcxlds3r4h0000gn/Cleanup At Startup/IAMSUProduct-3089.WyAWTUI4/SFRUpdateBundle
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Setting new update descriptor with downloaded SFR: SUMacControllerDescriptor:
+	  humanReadableUpdateName: macOS 27.0.1
+	  humanReadableUpdateTitle: (null)
+	  humanReadableUpdateVersion: (null)
+	  humanReadableMoreInfoLink:(null)
+	  uniqueBuildID: (null)
+	  originalUpdateType: Major
+	  updateUUID: B75CEB7E-CD32-44B2-BDDD-AABEC414189D
+	  productVersion: 27.0.1
+	  productVersionExtra: (null)
+	  productBuildVersion: 26A434
+	  restoreVersion: 26.1.434.0.0,0
+	  releaseType: (null)
+	  productSystemName: macOS
+	  publisher: Apple Inc.
+	  productType: (null)
+	  releaseDate: (null)
+	  targetUpdateBridgeVersion: (null)
+	  targetUpdateSFRVersion: (null)
+	  prerequisiteBuild: (null)
+	  prerequisiteOSVersion: (null)
+	  fullReplacement: YES
+	  supportedDevices: (null)
+	  downloadSize: 0
+	  unarchivedSize: 0
+	  msuPrepareSize: 0
+	  preparationSize: 0
+	  installationSize: 0
+	  minimumSystemPartitionSize: 0
+	  macTotalRequiredFreeSpace: 0
+	  totalRequiredDownloadSize: 0
+	  totalRequiredFreeSpace: 0
+	  preSUStagingRequiredSize: 0
+	  preSUStagingOptionalSize: 0
+	  enablePreSUStaging: NO
+	  preSUStagingOutcome: 0
+	  preSUStagingError: (null)
+	  disableSecurityAdvisoryNotification: NO
+	  disableDeviceCompatibilityNotification: NO
+	  alignediOSMajorVersion: (null)
+	  streamingZipCapable: NO
+	  autoDownloadAllowableOverCellular: NO
+	  downloadable: NO
+	  autoUpdateEnabled: NO
+	  mdmDelayInterval: 0
+	  forcePasscodeRequired: NO
+	  criticalUpdate: NO
+	  autoInstallDelay: 0
+	  notifyAfter: NO
+	  requireInstallAssistantUpdate: NO
+	  disableMASuspension: NO
+	  rampEnabled: NO
+	  granularlyRamped: NO
+	  oneShotBuddyDisabled: NO
+	  oneShotBuddyDisabledBuilds: (null)
+	  mandatoryUpdateEligible: NO
+	  mandatoryUpdateVersionMin: (null)
+	  mandatoryUpdateVersionMax: (null)
+	  mandatoryUpdateOptional: NO
+	  mandatoryUpdateRestrictedToOutOfTheBox: NO
+	  isSplatAssetType: NO
+	  splatOnly: NO
+	  splatSemiSplatEnabled: NO
+	  splatSemiSplatMustQuitApps: NO
+	  splatRevoked: NO
+	  semiSplatNov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation success - OSISFetchSFROperation
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation started - OSISPrepareMobileSoftwareUpdateOperation
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Generating overrides
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Seeding: ExtendedAttribute was not set on /Applications/Install macOS 27 Golden Gate.app
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: seedingInfoDict ->
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: result : Fail
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: seedProgramSource : Default
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: seedProgram : 
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: catalogURLString : https://swscan.apple.com/content/catalogs/others/index-27-26-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog.gz
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: fileName : /Applications/Install macOS 27 Golden Gate.app
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: error : No xattr was set
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Found seeding info dictionary
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Seeding info: isGM: 1 isDefaulting: 1
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Recovery Credential Refresh: Context UID is: 501
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: hasBundledRosetta: 0, Target contains Rosetta: 1, forced install: 0
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Will require Rosetta update (fatal)
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Setting additional overrides: {
+	    DoNotSeal = 0;
+	    LocalAuthenticationContext = {length = 16, bytes = 0x92b280481e72ac9e22433fdbb65f3840};
+	    LocalAuthenticationUserID = 501;
+	}
+Nov  3 16:12:52 Mobiles-MacBook-Pro osinstallersetupd[3089]: Starting prepare
+Nov  3 16:12:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:ACCEPTED stalled:NO portionComplete:0.001000 estimatedTimeRemaining:-1.000000
+Nov  3 16:12:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:PREFLIGHT_PERSONALIZE stalled:NO portionComplete:0.150000 estimatedTimeRemaining:-1.000000
+Nov  3 16:12:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Progress: phase:COMPLETED stalled:NO portionComplete:1.000000 estimatedTimeRemaining:-1.000000
+Nov  3 16:12:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Prepare returned an SUMacControllerErrorDomain error: Error Domain=SUMacControllerError Code=7723 "[SUMacControllerErrorPreflightPersonalizeFailed=7723] Failed to perform PreflightPersonalize operation: [MobileSoftwareUpdateErrorDomain(MSU):1256]" UserInfo={NSLocalizedDescription=Failed to personalize the software update. Please try again., SUMacControllerErrorIndicationsMask=0, NSDebugDescription=[SUMacControllerErrorPreflightPersonalizeFailed=7723] Failed to perform PreflightPersonalize operation: [MobileSoftwareUpdateErrorDomain(MSU):1256], NSUnderlyingError=0xa21017660 {Error Domain=MobileSoftwareUpdateErrorDomain Code=1256 "Failed to find SFR recovery volume" UserInfo={NSDebugDescription=Failed to find SFR recovery volume}}}
+Nov  3 16:12:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation failed - OSISPrepareMobileSoftwareUpdateOperation
+Nov  3 16:12:53 Mobiles-MacBook-Pro osinstallersetupd[3089]: Operation queue failed with error: Error Domain=com.apple.OSInstallerSetup.error Code=1007 "An error occurred preparing the update." UserInfo={NSLocalizedRecoverySuggestion=Failed to personalize the software update. Please try again., NSLocalizedDescription=An error occurred preparing the update., NSUnderlyingError=0xa21016fd0 {Error Domain=SUMacControllerError Code=7723 "[SUMacControllerErrorPreflightPersonalizeFailed=7723] Failed to perform PreflightPersonalize operation: [MobileSoftwareUpdateErrorDomain(MSU):1256]" UserInfo={NSLocalizedDescription=Failed to personalize the software update. Please try again., SUMacControllerErrorIndicationsMask=0, NSDebugDescription=[SUMacControllerErrorPreflightPersonalizeFailed=7723] Failed to perform PreflightPersonalize operation: [MobileSoftwareUpdateErrorDomain(MSU):1256], NSUnderlyingError=0xa21017660 {Error Domain=MobileSoftwareUpdateErrorDomain Code=1256 "Failed to find SFR recovery volume" UserInfo={NSDebugDescription=Failed to find SFR recovery volume}}}}}
+Nov  3 16:12:53 Mobiles-MacBook-Pro InstallAssistant[3074]: Stopped operation queue with Error Domain=com.apple.OSInstallerSetup.error Code=1007 "An error occurred preparing the update." UserInfo={NSUnderlyingError=0xbb7dfc2d0 {Error Domain=SUMacControllerError Code=7723 "[SUMacControllerErrorPreflightPersonalizeFailed=7723] Failed to perform PreflightPersonalize operation: [MobileSoftwareUpdateErrorDomain(MSU):1256]" UserInfo={NSUnderlyingError=0xbb7dfe220 {Error Domain=MobileSoftwareUpdateErrorDomain Code=1256 "Failed to find SFR recovery volume" UserInfo={NSDebugDescription=Failed to find SFR recovery volume}}, SUMacControllerErrorIndicationsMask=0, NSDebugDescription=[SUMacControllerErrorPreflightPersonalizeFailed=7723] Failed to perform PreflightPersonalize operation: [MobileSoftwareUpdateErrorDomain(MSU):1256], NSLocalizedDescription=Failed to personalize the software update. Please try again.}}, NSLocalizedRecoverySuggestion=Failed to personalize the software update. Please try again., NSLocalizedDescription=An error occurred preparing the update.}
+Nov  3 16:12:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s3
+Nov  3 16:12:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: disk2s3 has no volume role. Assuming valid ownership state.
+Nov  3 16:12:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
+Nov  3 16:12:54 Mobiles-MacBook-Pro osinstallersetupd[3089]: Checking ownership status on disk2s1
